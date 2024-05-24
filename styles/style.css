@@ -1,0 +1,256 @@
+*{  
+     padding: 0px;
+     margin: 0px;
+}
+
+html{
+     font-size: 16px;
+}
+
+/**header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed; 
+     top: 0;
+     width: 100%;  
+     z-index: 1;
+     background-color: #1a2222;
+     border-bottom: solid #bcc7c7;
+     padding: 3px;
+}
+
+.logo{
+     display: flex;
+     width: 15%;
+}
+
+.lista-links{ 
+     display: flex;
+     list-style-type: none;
+     justify-content: space-between;
+     gap: 25px;
+}
+
+.lista-links li a:hover{
+     padding: 10px;
+     color: #ee5623;
+     transition: 0.5s;
+}
+
+.lista-links li{
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;  
+    font-size: 1rem; 
+} 
+
+.lista-links a{
+     color: #bcc7c7 !important; 
+     text-decoration: none;
+}
+.barra-sm{
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     align-items: flex-end;
+}
+
+.barra-sm a:hover{
+     margin: 10px 0px;
+     transition: 0.5s;
+}
+
+main{
+     padding-top: 4%;
+}**/
+
+header{
+     background-color: #1a2222;
+     border-bottom: solid #bcc7c7;
+     position: fixed; 
+     top: 0;
+     width: 100%;  
+     z-index: 1;
+}
+
+
+.navbar-brand img{ 
+     width: 30% !important;
+}
+
+.nav-item a{
+     color: #bcc7c7 !important;
+     font-family: "Nunito Sans", sans-serif !important;
+     font-optical-sizing: auto !important;
+     font-weight: 400 !important;
+     font-style: normal !important;
+     font-variation-settings:
+     "wdth" 100,
+     "YTLC" 500;  
+     font-size: 1rem !important; 
+     text-decoration: none;
+}
+
+
+.nav-item a:hover{
+     padding: 10px;
+     color: #ee5623 !important;
+     transition: 0.5s;
+}
+
+/**main{
+     background-color: #bcc7c7;
+     background-color: #1a2222;
+}
+
+#inicio{ 
+    @media screen and (max-width: 480px)
+}
+
+#inicio{ 
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(3,1fr);
+}
+
+#inicio img{ 
+     width: 100%;
+     display: flex; 
+     justify-content: center;
+     align-items: flex-start;
+     margin-top: 5%;
+     grid-column: span 2;
+     grid-row: span 3;
+} 
+
+#inicio h1 span{ 
+     font-size: 50%;
+
+}
+
+#inicio h1{
+     grid-column: 1;
+     position: absolute; top: 18%; left: 5%;  
+     color:#ee5623;
+     font-size: 750%;
+     text-decoration:none;
+     font-family: brandon-grotesque, sans-serif;
+     font-style: normal;
+     font-weight: 600;
+}
+
+#inicio h2{
+     display: flex; 
+     flex-wrap: wrap;
+     position: absolute; top: 400px; right: 970px; 
+     color:#1a2222;
+     font-size: 22px;
+     text-decoration:none;
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400px;
+     font-style: normal;
+     font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+#historia{
+     background-color:#1a2222;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 80px 250px;
+}
+
+#historia img{
+     display: flex;
+     flex-wrap: wrap;
+     width: 30%;
+}
+.container-historia{
+     display: flex;
+     justify-content: space-between;
+}
+
+.columna1{
+     flex: 1;
+     margin: 0px 35px;
+    
+}
+
+#historia h2{
+     margin-bottom: 10px;
+     margin-top: 10px;
+     color:#ee5623;
+     font-size: 24px;
+     text-decoration:none;
+     font-family: brandon-grotesque, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+}
+
+#historia a{
+     padding: 5px; 
+     margin: 5px;
+     color:#ee5623;
+     font-size: 14px;
+     text-decoration:underline;
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400px;
+     font-style: normal;
+     font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+ 
+#historia p{
+     margin-bottom: 40px;
+     color:#bcc7c7;
+     font-size: 14px;
+     text-decoration:none;
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400px;
+     font-style: normal;
+     font-variation-settings:
+       "wdth" 100,
+       "YTLC" 500;
+}
+
+footer{
+     @media screen and (max-width: 480px)
+}
+
+footer{
+     background-color:#1a2222;
+     color:#bcc7c7;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     grid-template-rows: repeat(3, 1fr);
+    }
+
+footer.saludo img{
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     grid-column: span 3;
+     grid-row: span 1;
+}
+
+footer h2{
+     display: flex; 
+     flex-wrap: wrap;
+     color:#ee5623;
+     font-size: 4rem;
+     text-decoration:none;
+     font-family: brandon-grotesque, sans-serif;
+     font-style: italic;
+     font-weight: 400;   
+}**/
