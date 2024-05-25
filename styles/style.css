@@ -6,11 +6,11 @@
 html{
      font-size: 16px;
 }
-header{ 
+/**header{ 
      @media screen {
           max-width: 320px;
      }
-}
+}**/
 header{
      display: flex;
      justify-content: space-around;
@@ -28,6 +28,7 @@ header{
      display: flex;
      width: 15%;
 }
+
 
 .lista-links{ 
      display: flex;
@@ -56,6 +57,14 @@ header{
 .lista-links a{
      color: #bcc7c7; 
      text-decoration: none;
+}
+
+.dropdown-toggle::after {
+     display: none !important;
+   }
+
+.dropdown-item{
+     color: #1a2222 !important;
 }
 .barra-sm{
      display: flex;
