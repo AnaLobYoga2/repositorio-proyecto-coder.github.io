@@ -6,8 +6,12 @@
 html{
      font-size: 16px;
 }
-
-/**header{
+header{ 
+     @media screen {
+          max-width: 320px;
+     }
+}
+header{
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -33,8 +37,8 @@ html{
 }
 
 .lista-links li a:hover{
-     padding: 10px;
      color: #ee5623;
+     padding: 10px;
      transition: 0.5s;
 }
 
@@ -50,7 +54,7 @@ html{
 } 
 
 .lista-links a{
-     color: #bcc7c7 !important; 
+     color: #bcc7c7; 
      text-decoration: none;
 }
 .barra-sm{
@@ -67,41 +71,8 @@ html{
 
 main{
      padding-top: 4%;
-}**/
-
-header{
-     background-color: #1a2222;
-     border-bottom: solid #bcc7c7;
-     position: fixed; 
-     top: 0;
-     width: 100%;  
-     z-index: 1;
 }
 
-
-.navbar-brand img{ 
-     width: 30% !important;
-}
-
-.nav-item a{
-     color: #bcc7c7 !important;
-     font-family: "Nunito Sans", sans-serif !important;
-     font-optical-sizing: auto !important;
-     font-weight: 400 !important;
-     font-style: normal !important;
-     font-variation-settings:
-     "wdth" 100,
-     "YTLC" 500;  
-     font-size: 1rem !important; 
-     text-decoration: none;
-}
-
-
-.nav-item a:hover{
-     padding: 10px;
-     color: #ee5623 !important;
-     transition: 0.5s;
-}
 
 /**main{
      background-color: #bcc7c7;
