@@ -6,14 +6,10 @@
 html{
      font-size: 16px;
 }
-/**header{ 
-     @media screen {
-          max-width: 320px;
-     }
-}**/
+
 header{
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: center;
      position: fixed; 
      top: 0;
@@ -21,62 +17,90 @@ header{
      z-index: 1;
      background-color: #1a2222;
      border-bottom: solid #bcc7c7;
-     padding: 3px;
+     padding: 2px;
 }
 
 .logo{
-     display: flex;
      width: 15%;
 }
-
-
-.lista-links{ 
-     display: flex;
-     list-style-type: none;
-     justify-content: space-between;
-     gap: 25px;
+.logo a img{
+     width: 30%;
+     height: auto;
 }
 
-.lista-links li a:hover{
-     color: #ee5623;
-     padding: 10px;
-     transition: 0.5s;
+.lista-links{
+     display: none;
 }
 
-.lista-links li{
-     font-family: "Nunito Sans", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: 400;
-     font-style: normal;
-     font-variation-settings:
-    "wdth" 100,
-    "YTLC" 500;  
-    font-size: 1rem; 
-} 
-
-.lista-links a{
-     color: #bcc7c7; 
-     text-decoration: none;
+/**nav .dropdown-menu{
+     
 }
 
 .dropdown-toggle::after {
      display: none !important;
-   }
+}
 
 .dropdown-item{
      color: #1a2222 !important;
-}
+}**/
 .barra-sm{
-     display: flex;
-     justify-content: space-between;
-     gap: 10px;
-     align-items: flex-end;
+     display: none;
 }
 
-.barra-sm a:hover{
-     margin: 10px 0px;
-     transition: 0.5s;
-}
+@media (min-width: 1024px){
+     .logo{
+          margin-left: 3%;
+     }
+     .logo a img{
+          width: 100%;
+          height: auto;
+     }
+     .lista-links{ 
+          display: flex;
+          list-style-type: none;
+          justify-content: space-between;
+          gap: 25px;
+     }
+     
+     .lista-links li a:hover{
+          color: #ee5623;
+          padding: 10px;
+          transition: 0.5s;
+     }
+     
+     .lista-links li{
+          font-family: "Nunito Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+          font-variation-settings:
+         "wdth" 100,
+         "YTLC" 500;  
+         font-size: 1rem; 
+     } 
+     
+     .lista-links a{
+          color: #bcc7c7; 
+          text-decoration: none;
+     }
+
+     .barra-sm{
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+          align-items:end;
+          margin-right: 3%;
+     }
+     
+     .barra-sm a:hover{
+          margin: 10px 0px;
+          transition: 0.5s;
+     }   
+     
+     .dropdown-menu{
+          display: none;
+     }
+     }
 
 main{
      padding-top: 4%;
