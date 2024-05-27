@@ -107,8 +107,30 @@ main{
      padding-top: 2px;
      margin-top: 50px;
 }
-
 #inicio{
+     position: relative;
+}
+#inicio .title{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:#bcc7c7;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     border-radius: 10px; 
+     opacity: 0.7;
+     color:#ee5623;
+     font-optical-sizing: auto;
+     font-size: 400%;
+     font-family: brandon-grotesque, sans-serif;
+     font-style: italic;
+     font-weight: 500; 
+}
+
+/**#inicio{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
      grid-template-rows: auto auto auto;
@@ -249,7 +271,7 @@ main{
            "wdth" 100,
            "YTLC" 500;
      }
-}
+}**/
 
 #historia{
       border-top: #1a2222;
