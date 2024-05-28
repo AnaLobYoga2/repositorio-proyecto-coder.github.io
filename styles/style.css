@@ -6,7 +6,6 @@
 html{
      font-size: 16px;
 }
-
 header{
      display: flex;
      justify-content: space-between;
@@ -18,91 +17,46 @@ header{
      z-index: 1;
      background-color: #1a2222;
      border-bottom: solid #bcc7c7;
-     padding: 2px;
 }
-
-.logo{
-     width: 15%;
+.container-fluid a img{
+     width: 35%;
 }
-.logo a img{
-     width: 30%;
-     height: auto;
+.navbar-nav li a{
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;  
+     font-size: 1rem; 
+     color: #bcc7c7 !important;
 }
-
-.lista-links{
+.navbar-nav li a:hover{
+     color: #ee5623 !important;
+     padding: 10px;
+     transition: 0.5s;
+}
+.barra-sm{
      display: none;
 }
-
-nav .dropdown-menu{
-     
+@media (min-width: 999px){
+.barra-sm{
+     display: block;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     align-items:end;
+     margin-right: 3%;
 }
-
-.dropdown-toggle::after {
-     display: none !important;
+.barra-sm a:hover{
+     margin: 10px 0px;
+     transition: 0.5s;
+} 
 }
-
-.dropdown-item{
-     color: #1a2222 !important;
+.container-fluid button{
+     border-color: #bcc7c7;
 }
-/**.barra-sm{
-     display: none;
-}
-
-@media (min-width: 1000px){
-     .logo{
-          margin-left: 3%;
-     }
-     .logo a img{
-          width: 100%;
-          height: auto;
-     }
-     .lista-links{ 
-          display: flex;
-          list-style-type: none;
-          justify-content: space-between;
-          gap: 25px;
-     }
-     
-     .lista-links li a:hover{
-          color: #ee5623;
-          padding: 10px;
-          transition: 0.5s;
-     }
-     
-     .lista-links li{
-          font-family: "Nunito Sans", sans-serif;
-          font-optical-sizing: auto;
-          font-weight: 400;
-          font-style: normal;
-          font-variation-settings:
-         "wdth" 100,
-         "YTLC" 500;  
-         font-size: 1rem; 
-     } 
-     
-     .lista-links a{
-          color: #bcc7c7; 
-          text-decoration: none;
-     }
-
-     .barra-sm{
-          display: flex;
-          justify-content: space-between;
-          gap: 10px;
-          align-items:end;
-          margin-right: 3%;
-     }
-     
-     .barra-sm a:hover{
-          margin: 10px 0px;
-          transition: 0.5s;
-     }   
-     
-     .dropdown-menu{
-          display: none;
-     }
-     }**/
-
 main{
      padding-top: 2px;
      margin-top: 50px;
