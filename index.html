@@ -33,9 +33,45 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+        <!--<div class="logo">
           <a href="#inicio"><img src="assets/logo.png" alt="logo ana lobato yoga"></a>
-        </div> 
+        </div>--> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio"><img src="assets/logo.png" alt="logo ana lobato yoga"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/estilos.html">Estilos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/horarios-y-abonos.html">Horarios y Abonos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/talleres.html">Talleres</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
         <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">l</a>
@@ -68,7 +104,7 @@
               </ul>
             </div>
           </div>
-        </nav>-->
+        </nav>
         <nav class="nav-bar">
             <ul class="lista-links">
                 <li><a href="#inicio">Inicio</a></li>
@@ -98,7 +134,7 @@
                 <a href="https://www.instagram.com/ana.lob.yoga/?hl=es-la" target="_blank"><img src="assets/logotipo-de-instagram.png" alt="logo ig"></a>
                 <a href="https://www.facebook.com/profile.php?id=100063504103668" target="_blank"><img src="assets/logo-facebook.png" alt="logo fb"></a>
                 <a href="https://wa.me/+5491151789875" target="_blank"><img src="assets/logo-wapp.png" alt="logo wapp"></a>
-        </div>
+        </div>-->
 
     </header>
  
@@ -122,38 +158,8 @@
             <h2>Biomecánica, Vinyasa Flow, Hatha Yoga,<br> Meditación</h2>
            </div>
         </section>
-        <!--<section id="inicio">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/main-cabecera.jpg" class="d-block w-100" alt="bhujangasana">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/main-cabecera 2.jpg" class="d-block w-100" alt="hollowback">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/main-cabecera 3.jpg" class="d-block w-100" alt="supta badakonasana">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <div class="title">
-           <h1><span>ANA LOBATO</span><br>Clases de Yoga</br></h1>
-           <h2>Biomecánica, Vinyasa Flow, Hatha Yoga,<br> Meditación</h2>
-          </div>
-
-        </section>-->
-
         <section id="historia">
-            <img src="assets/sobre-mi.jpg" alt="virasana">
-            
+            <img src="assets/sobre-mi.jpg" alt="virasana">           
             <div class="container-historia">
                 <div class="columna1">
                     <h2>Historia del  Yoga</h2>
@@ -295,54 +301,58 @@
     </main>
 
     <footer>
-
         <div class="nos-vemos">
             <img src="assets/footer.jpg" class="img-fluid" alt="dragon-squat">
             <h2>¡Nos vemos en el Mat!</h2>
         </div>
-
-        <section id="form-contacto">
+        <div id="form-contacto">
             <p>¡Si tenes dudas o queres recibir info sobre  novedades en la tienda, las próximas fechas de taller o llevar mis talleres a tu espacio, dejame tus datos aca!</p>
-
-            <div>
-                <form action="form.php" method="get"> <!--hay que crear archivo para que reciba la info aun no lo vimos-->
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
-                    <input type="email" name="email" id="email" placeholder="Email"><br>
-                    <input type="number" name="telefono" id="telefono" placeholder="Teléfono"><br>
-                    <input type="text" name="asunto" id="asunto" placeholder="Asunto"><br>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui tu mensaje..."></textarea><br>
-               
-                    <input type="submit" value="Enviar">
-            
-    
+            <div class="container-form">
+                <form action="form.php" method="get"> 
+                  <form class="form-floating">
+                    <div class="row">
+                      <div class="col">
+                      <input type="name" class="form-control" id="floatingInputValue" placeholder="Nombre y Apellido">
+                      <label for="floatingInputValue">Nombre y Apellido</label>
+                      <input type="email" class="form-control" id="floatingInputValue" placeholder="nombre@ejemplo.com">
+                      <label for="floatingInputValue">Email</label>
+                      <input type="phone" class="form-control" id="floatingInputValue" placeholder="+54 11...">
+                      <label for="floatingInputValue">Teléfono</label>
+                    </div>
+                    <div class="col">
+                      <textarea class="form-control" placeholder="Dejá acá tu comentario" id="floatingTextarea2" style="height: 150px"></textarea>
+                      <label for="floatingTextarea2">Dejá acá tu comentario</label>
+                    </div>
+                  </form>
                 </form>
-            </div>
-            
-        </section>
-        
-        <section class="contacto">
-            <h3>CONTACTO</h3>
-            <p>Wapp: +54 9 11 5178 9875 </p>
-    
-            <h3>Email</h3>
-            <p>ana.lob.yoga@gmail.com </p>
-    
+            </div> 
+          </div>
+        <div class="contacto row">
+           <div class="col"> 
+              <h3>CONTACTO</h3>
+              <p>Wapp: +54 9 11 5178 9875 </p>
+           </div>
+           <div class="col"> 
+              <h3>Email</h3>
+              <p>ana.lob.yoga@gmail.com </p>
+           </div>
+           <div class="col"> 
             <h3>¡Seguime!</h3>
-            <ul>
-                <li><a href="https://www.instagram.com/ana.lob.yoga/?hl=es-la" target="_blank"><img src="assets/logotipo-de-instagram.png" alt="logoig"></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100063504103668" target="_blank"><img src="assets/logo-facebook.png" alt="logofb"></a></li>
-                <li><a href="https://wa.me/+5491151789875" target="_blank"><img src="assets/logo-wapp.png" alt="logowapp"></a></li>
-            </ul>
-    
+              <ul>
+                  <li><a href="https://www.instagram.com/ana.lob.yoga/?hl=es-la" target="_blank"><img src="assets/logotipo-de-instagram.png" alt="logoig"></a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=100063504103668" target="_blank"><img src="assets/logo-facebook.png" alt="logofb"></a></li>
+                  <li><a href="https://wa.me/+5491151789875" target="_blank"><img src="assets/logo-wapp.png" alt="logowapp"></a></li>
+              </ul>
+            </div> 
+        <div class="end">
+          <div class="row">
             <h3>© 2024 Creado por Ana Lobato</h3>
-
-        </section> 
-
+          </div>
+      </div>
         <div class="botones-flotantes">
             <a href="#inicio"><img src="assets/up-arrow.png" alt="volver-inicio"></a>
             <a href="https://wa.me/+5491151789875" target="_blank"><img src="assets/logo-wapp-big.png" alt="logowapp"></a><br>   
         </div>
-
     </footer>
 
 <!--Boostrap javascript-->
