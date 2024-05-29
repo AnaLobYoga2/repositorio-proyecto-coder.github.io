@@ -144,6 +144,9 @@ main{
            "wdth" 100,
            "YTLC" 500;
 }
+#historia a:visited{
+     color: #1a2222;
+}
       
 #historia p{
       margin-bottom: 40px;
@@ -246,6 +249,10 @@ main{
 }
 #estilos .card{
      background-color:#1a2222;
+     transition: 0.7s;
+}
+#estilos .card:hover{
+     margin: 50px;
 }
 #estilos h5{
      color:#bcc7c7 !important;
@@ -286,6 +293,9 @@ main{
      background-color:#1a2222;
      border-color:#1a2222;
 }
+#estilos a:hover{
+     color:black !important;
+}
 
 #horarios{
      background-color:#1a2222;
@@ -322,6 +332,10 @@ main{
 }
 #horarios .card{
      background-color:#1a2222;
+     transition: 0.7s;
+}
+#horarios .card:hover{
+     margin-top: 10px !important;
 }
 #horarios h5{
      color:#bcc7c7 !important;
@@ -363,6 +377,11 @@ main{
      background-color:#ee5623;
      border-color: #ee5623;
      opacity: 0.8;
+     transition: 0.7s;
+}
+#horarios a:hover{
+     color: #bcc7c7 !important;
+     padding: 10px !important;
 }
 #talleres{
      background-color:#1a2222;
@@ -401,7 +420,11 @@ main{
      background-color:#1a2222;
      border-style: none;
      padding: 15px;
+     transition: 0.7s;
      
+}
+#talleres .card:hover{
+     padding: 30px !important;
 }
 #talleres h5{
      color:#ee5623;
@@ -433,6 +456,11 @@ main{
      background-color:#bcc7c7;
      border-color:#bcc7c7;
      opacity: 0.8;
+     transition: 0.7s;
+}
+#talleres a:hover{
+     background-color:#ee5623 !important;
+     color: black !important;
 }
 #tienda{
      background-color: #bcc7c7;
@@ -485,6 +513,11 @@ footer{
 }
 .nos-vemos{
      position: relative;
+     transition: 0.5s;
+}
+.nos-vemos:hover{
+     padding: 30px;
+     margin-left: 20px;
 }
 .nos-vemos h2{
      position: absolute;
