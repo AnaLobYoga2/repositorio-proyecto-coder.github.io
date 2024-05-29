@@ -35,7 +35,7 @@ header{
 .navbar-nav li a:hover{
      color: #ee5623 !important;
      padding: 10px;
-     transition: 0.5s;
+     transition: 0.7s;
 }
 .barra-sm{
      display: none;
@@ -50,8 +50,8 @@ header{
      margin-right: 3%;
 }
 .barra-sm a:hover{
-     margin: 10px 0px;
-     transition: 0.5s;
+     margin: 10px;
+     transition: 0.7s;
 } 
 }
 .container-fluid button{
@@ -614,6 +614,11 @@ footer{
      justify-content: center;
      align-items: center;
      margin-right: 6%;
+     gap: 10px;
+}
+.contacto ul li a img:hover{
+     margin: 10px;
+     transition: 0.7s;
 }
 .end h3{
      font-size: 100%;
