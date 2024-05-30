@@ -627,3 +627,48 @@ footer{
 .botones-flotantes{
      display: none;
 }
+.pagina-historia{
+     padding: 10px;
+     background-color: #bcc7c7;
+}
+.pagina-historia .container-fluid{
+     padding: 20px;
+}
+.pagina-historia  .container-fluid h2{
+     margin-left: 25%;
+     margin-top: 8%;
+     font-size: 3rem;
+     text-decoration: underline;
+     text-align: center;
+     font-family: "Nunito Sans", sans-serif !important;
+     font-optical-sizing: auto;
+     font-weight: 800px;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100,
+          "YTLC" 500;
+}
+.pagina-historia .container-fluid p{
+     margin-top: 2%;
+     margin-left: 25%;
+     color:#1a2222;
+     font-size: 20px;
+     text-align:left;
+     font-family: "Nunito Sans", sans-serif !important;
+     font-optical-sizing: auto;
+     font-weight: 500px;
+     font-style: normal;
+     font-variation-settings:
+          "wdth" 100,
+          "YTLC" 500;
+}
+.pagina-historia .col{
+     margin-top: 10%;
+}
+.pagina-historia .col img{
+     width: 30%;
+     margin-bottom: 3%;
+     margin-right: 25%;
+     border:#1a2222;
+     border-style: solid;
+}
