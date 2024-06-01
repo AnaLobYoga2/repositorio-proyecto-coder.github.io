@@ -650,95 +650,214 @@ footer{
 .botones-flotantes{
      display: none;
 }
-.pagina-historia{
-     padding: 10px;
-     background-color:rgb(188,199,199, 0.6);
-     border-bottom: #1a2222;
-     border-style: solid;
+@media (min-width: 200px) and (max-width: 999px) {
+     .pagina-historia{
+          padding: 10px;
+          background-color:rgb(188,199,199, 0.6);
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     .pagina-historia .clearfix{
+          display: flex;
+          flex-direction:column;
+          align-items: center !important;
+          justify-content: center !important;
+          padding: 20px;
+          margin-top: 5%;
+     }
+     .pagina-historia  .clearfix h2{
+          font-size: 200%;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .clearfix p{
+          color:#1a2222;
+          font-size: 100%;
+          text-align:justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .clearfix img{
+          margin-top: 22%;
+          width: 90%;
+          border:#1a2222;
+          border-style: solid;
+          transition: 0.7s;
+     }
+     .pagina-historia .clearfix img:hover{
+          transform: scale(1.5);
+     }
+     .pagina-historia .container-fluid h2{
+          font-size: 200%;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .container-fluid p{
+          margin-top: 5%;
+          margin-left: 10%;
+          margin-right: 10%;
+          margin-bottom: 5%;
+          color:#1a2222;
+          font-size: 100%;
+          text-align:justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+     }
+     .pagina-historia .container-fluid .fotos{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10%;
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .pagina-historia .container-fluid img{
+          width: 40%;
+          margin-bottom: 5%;
+          border:#1a2222;
+          border-style: solid;
+     }
+     .pagina-historia .volver-inicio{
+          display: none;
+     }
 }
-.pagina-historia .clearfix{
-     padding: 20px;
-     margin-top: 5%;
-     margin-left: 15%;
-}
-.pagina-historia  .clearfix h2{
-     font-size: 3rem;
-     color: black;
-     text-decoration: underline;
-     text-align: center;
-     font-family: "Nunito Sans", sans-serif !important;
-     font-optical-sizing: auto;
-     font-weight: 800px;
-     font-style: normal;
-     font-variation-settings:
-          "wdth" 100,
-          "YTLC" 500;
-}
-.pagina-historia .clearfix p{
-     margin: 5%;
-     color:#1a2222;
-     font-size: 20px;
-     text-align:justify;
-     font-family: "Nunito Sans", sans-serif !important;
-     font-optical-sizing: auto;
-     font-weight: 500px;
-     font-style: italic;
-     font-variation-settings:
-          "wdth" 100,
-          "YTLC" 500;
-}
-.pagina-historia .clearfix img{
-     margin-top: 22%;
-     width: 70%;
-     border:#1a2222;
-     border-style: solid;
-     transition: 0.7s;
-}
-.pagina-historia .clearfix img:hover{
-     transform: scale(1.5);
-}
-.pagina-historia .container-fluid h2{
-     font-size: 3rem;
-     color: black;
-     text-decoration: underline;
-     text-align: center;
-     font-family: "Nunito Sans", sans-serif !important;
-     font-optical-sizing: auto;
-     font-weight: 800px;
-     font-style: normal;
-     font-variation-settings:
-          "wdth" 100,
-          "YTLC" 500;
-}
-.pagina-historia .container-fluid p{
-     margin-top: 5%;
-     margin-left: 10%;
-     margin-right: 10%;
-     margin-bottom: 5%;
-     color:#1a2222;
-     font-size: 20px;
-     text-align:justify;
-     font-family: "Nunito Sans", sans-serif !important;
-     font-optical-sizing: auto;
-     font-weight: 500px;
-     font-style: italic;
-     font-variation-settings:
-          "wdth" 100,
-          "YTLC" 500;   
-}
-.pagina-historia .container-fluid .fotos{
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 10%;
-     margin-left: 5%;
-     margin-right: 5%;
-}
-.pagina-historia .container-fluid img{
-     width: 22%;
-     border:#1a2222;
-     border-style: solid;
-     transition: 0.7s;
-}
-.pagina-historia .container-fluid img:hover{
-     transform: scale(1.8);
+@media (min-width: 999px) {
+     .pagina-historia{
+          padding: 10px;
+          background-color:rgb(188,199,199, 0.6);
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     .pagina-historia .clearfix{
+          display: flex;
+          padding: 20px;
+          margin-top: 5%;
+          margin-left: 15%;
+     }
+     .pagina-historia  .clearfix h2{
+          font-size: 3rem;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .clearfix p{
+          margin: 5%;
+          color:#1a2222;
+          font-size: 20px;
+          text-align:justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .clearfix img{
+          margin-top: 22%;
+          width: 70%;
+          border:#1a2222;
+          border-style: solid;
+          transition: 0.7s;
+     }
+     .pagina-historia .clearfix img:hover{
+          transform: scale(1.5);
+     }
+     .pagina-historia .container-fluid h2{
+          font-size: 3rem;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .pagina-historia .container-fluid p{
+          margin-top: 5%;
+          margin-left: 10%;
+          margin-right: 10%;
+          margin-bottom: 5%;
+          color:#1a2222;
+          font-size: 20px;
+          text-align:justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+     }
+     .pagina-historia .container-fluid .fotos{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10%;
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .pagina-historia .container-fluid img{
+          width: 22%;
+          border:#1a2222;
+          border-style: solid;
+          transition: 0.7s;
+     }
+     .pagina-historia .container-fluid img:hover{
+          transform: scale(1.8);
+     }
+     .pagina-historia .volver-inicio{
+          color: #1a2222;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          margin-bottom: 3%;
+          font-size: 20px;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+     }
+     .pagina-historia .volver-inicio:visited{
+          color:#bcc7c7;
+     }
 }
