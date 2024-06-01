@@ -653,7 +653,7 @@ footer{
 @media (min-width: 200px) and (max-width: 999px) {
      .pagina-historia{
           padding: 10px;
-          background-color:rgb(188,199,199, 0.6);
+          background-color: #EDF7FF;
           border-bottom: #1a2222;
           border-style: solid;
      }
@@ -751,7 +751,7 @@ footer{
 @media (min-width: 999px) {
      .pagina-historia{
           padding: 10px;
-          background-color:rgb(188,199,199, 0.6);
+          background-color: #EDF7FF;
           border-bottom: #1a2222;
           border-style: solid;
      }
@@ -858,6 +858,187 @@ footer{
                "YTLC" 500;   
      }
      .pagina-historia .volver-inicio:visited{
-          color:#bcc7c7;
+          color:#ee5623;
+     }
+}
+@media (min-width: 200px) and (max-width: 999px) {
+     #pagina-estilos{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     #pagina-estilos h2{
+          margin-top: 5%;
+          font-size: 3rem;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card{
+          background-color: #EDF7FF;
+          width: 40%!important;
+          border-style: none;
+          margin: 5% !important;
+     }
+     #pagina-estilos .card-title{
+          color: black;
+          text-decoration: underline !important;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card p{
+          margin-top: 3%;
+          margin-left: 8% !important;
+          margin-right: 8% !important;
+          color: black;
+          text-align: justify !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card img{
+          width: 70% !important;
+          margin-left: 15%;
+          border-radius: 3px !important;
+     }
+     #pagina-estilos .card a{
+          display: flex;
+          justify-content: center;
+          margin-top: 3%;
+          margin-left: 26% !important;
+          margin-right: 26% !important;
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          text-align: justify !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-eestilos .volver-inicio{
+          display: none;
+     }
+}     
+@media (min-width: 999px){
+     #pagina-estilos{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     #pagina-estilos h2{
+          margin-top: 5%;
+          font-size: 3rem;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card{
+          background-color: #EDF7FF;
+          width: 40%!important;
+          border-style: none;
+          margin: 5% !important;
+     }
+     #pagina-estilos .card-title{
+          color: black;
+          text-decoration: underline !important;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card p{
+          margin-top: 3%;
+          margin-left: 8% !important;
+          margin-right: 8% !important;
+          color: black;
+          text-align: justify !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-estilos .card img{
+          width: 70% !important;
+          margin-left: 15%;
+          border-radius: 3px !important;
+     }
+     #pagina-estilos .card a{
+          display: flex;
+          justify-content: center;
+          margin-top: 3%;
+          margin-left: 26% !important;
+          margin-right: 26% !important;
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          text-align: justify !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+          transition: 0.7s;
+     }
+     #pagina-estilos .card a:hover{
+          transform: scale(1.5);
+     }
+     #pagina-estilos .volver-inicio{
+          color: #1a2222;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          margin-bottom: 3%;
+          font-size: 20px;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+     }
+     #pagina-estilos .volver-inicio:visited{
+          color:#ee5623;
      }
 }
