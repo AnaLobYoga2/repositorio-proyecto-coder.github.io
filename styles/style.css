@@ -695,10 +695,6 @@ footer{
           width: 90%;
           border:#1a2222;
           border-style: solid;
-          transition: 0.7s;
-     }
-     .pagina-historia .clearfix img:hover{
-          transform: scale(1.5);
      }
      .pagina-historia .container-fluid h2{
           font-size: 200%;
@@ -906,7 +902,6 @@ footer{
           margin-left: 8% !important;
           margin-right: 8% !important;
           color: black;
-          text-align: justify !important;
           font-size: 75%;
           font-family: "Nunito Sans", sans-serif !important;
           font-optical-sizing: auto;
@@ -924,13 +919,11 @@ footer{
      #pagina-estilos .card a{
           display: flex;
           justify-content: center;
-          margin-top: 3%;
-          margin-left: 26% !important;
-          margin-right: 26% !important;
+          font-size: 15px;
+          padding: 5% !important;
           background-color: #ee5623 !important;
           border-color: #ee5623 !important;
           color: black;
-          text-align: justify !important;
           font-size: small;
           font-family: "Nunito Sans", sans-serif !important;
           font-optical-sizing: auto;
@@ -970,7 +963,7 @@ footer{
           background-color: #EDF7FF;
           width: 40%!important;
           border-style: none;
-          margin: 5% !important;
+          margin: 5%;
      }
      #pagina-estilos .card-title{
           color: black;
@@ -1043,4 +1036,284 @@ footer{
      #pagina-estilos .volver-inicio:visited{
           color:#ee5623;
      }
+}
+@media (min-width: 200px) and (max-width: 999px) {
+     #pagina-horarios{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     #pagina-horarios h2{
+          margin-top: 5%;
+          font-size: 200%;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix{
+          display: flex;
+          flex-direction:column;
+          align-items: center !important;
+          justify-content: center !important;
+          padding: 20px;
+          margin-top: 5%;
+     }
+     #pagina-horarios .clearfix h3{
+          margin-top: 5%;
+          color: black;
+          text-decoration: underline !important;
+          font-size: 100%;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix h5{
+          color: black;
+          text-decoration: none;
+          font-size: 75%;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 900px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix p{
+          margin-top: 3%;
+          margin-left: 8% !important;
+          margin-right: 8% !important;
+          color: black;
+          font-size: 70%;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix a{
+          display: flex;
+          justify-content: center;
+          font-size: 15px;
+          padding: 5%;
+          border-radius: 3%;
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          font-size: small;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .card{
+          width: 20% !important;
+          background-color:#EDF7FF;
+          border-style: none;
+          padding: 15px;
+          display: flex;
+          justify-content: center !important;
+          align-items: center !important;
+          text-align: center;
+     }
+     #pagina-horarios .card img{
+          width: 300% !important;
+     }
+     #pagina-horarios .card h5{
+          font-size: 75%;
+     }
+     #pagina-horarios .card p{
+          font-size: 70%;
+     }
+     #pagina-horarios .card a{
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          font-size: 65%;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }  
+     #pagina-horarios .links{
+        display: none;
+     }
+
+}
+@media (min-width: 999px){
+     #pagina-horarios{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     #pagina-horarios h2{
+          margin-top: 5%;
+          font-size: 3rem;
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix{
+          align-items: center !important;
+          justify-content: center !important;
+          padding: 20px;
+          margin: 5%;
+     }
+     #pagina-horarios .clearfix h3{
+          color: black;
+          text-decoration: underline !important;
+          font-size: 2rem;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix h5{
+          color: black;
+          text-decoration: none;
+          font-size: 25px;
+          text-align: center !important;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 900px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix p{
+          margin-top: 3%;
+          margin-left: 8% !important;
+          margin-right: 8% !important;
+          color: black;
+          font-size: 1rem;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-horarios .clearfix a{
+          display: flex;
+          justify-content: center;
+          font-size: 15px;
+          padding: 5%;
+          border-radius: 3%;
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          font-size: small;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+          transition: 0.7s;
+     }
+     #pagina-horarios .clearfix a:hover{
+          margin: 10%;
+          color: #bcc7c7;
+     } 
+     #pagina-horarios .card{
+          width: 20% !important;
+          margin-left: 3%;
+          margin-right: 3%;
+          background-color:#EDF7FF;
+          border-style: none;
+          padding: 15px;
+          transition: 0.7s;
+          display: flex;
+          justify-content: center !important;
+          align-items: center !important;
+          text-align: center;
+     }
+     #pagina-horarios .card img{
+          width: 50% !important;
+     }
+     #pagina-horarios .card a{
+          background-color: #ee5623 !important;
+          border-color: #ee5623 !important;
+          color: black;
+          font-size: small;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+          transition: 0.7s;
+     }
+     #pagina-horarios .card:hover{
+          transform:scale(1.1);
+          color:#ee5623;
+     }  
+     #pagina-horarios .card a:hover{
+          color:#bcc7c7 !important;
+          background-color:#1a2222 !important;
+     }
+     #pagina-horarios .links{
+          margin-top: 5%;
+          display: flex;
+          justify-content: space-around;
+          align-content: center;
+     }
+     #pagina-horarios .links a{
+          color: #1a2222;
+          margin-bottom: 3%;
+          text-decoration: none;
+          font-size: 20px;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+          }
+          #pagina-horarios .links:visited{
+               color:#ee5623;
+          }      
 }
