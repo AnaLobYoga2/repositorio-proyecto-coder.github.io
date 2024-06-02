@@ -1317,3 +1317,417 @@ footer{
                color:#ee5623;
           }      
 }
+@media (min-width: 200px) and (max-width: 999px){
+     #pagina-talleres{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+      
+     #pagina-talleres h2{
+          margin: 5%;
+          color: black;
+          font-size: 100%;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-talleres p{
+          margin-bottom: 5%;
+          color: black;
+          font-size: 70%;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-talleres .container-fluid{
+          display: flex;
+          justify-content: space-around;   
+     }
+     #pagina-talleres .container-fluid img{
+          width: 20%;
+          border-style: solid;
+          border-color: #1a2222;
+          margin-bottom: 5%;
+     }
+     .taller-balances h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 80% !important;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-balances p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 65% !important;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-extencion h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 80% !important;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-extencion p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 65% !important;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-caderas h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 80% !important;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-caderas p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 65% !important;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-meditacion h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 80% !important;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-meditacion p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 65% !important;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+
+}
+@media (min-width: 999px){
+     #pagina-talleres{
+          padding: 10px;
+          margin-top: 3%;
+          background-color:#EDF7FF;
+          border-bottom: #1a2222;
+          border-style: solid;
+     }
+     #pagina-talleres .baner img{
+          width: 100%;
+     }
+     
+     #pagina-talleres h2{
+          margin: 5%;
+          color: black;
+          font-size: 3rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-talleres p{
+          margin-bottom: 5%;
+          color: black;
+          font-size: 20px;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-talleres .container-fluid{
+          display: flex;
+          justify-content: space-around;   
+     }
+     #pagina-talleres .container-fluid img{
+          width: 20%;
+          border-style: solid;
+          border-color: #1a2222;
+          margin-bottom: 5%;
+          transition: 0.7s;
+     }
+     #pagina-talleres .container-fluid img:hover{
+          transform:scale(1.5);
+     }
+     .taller-balances h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 2rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-balances p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 1rem;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-extencion h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 2rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-extencion p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 1rem;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-caderas h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 2rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-caderas p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 1rem;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-meditacion h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 2rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-meditacion p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 1rem;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-balances h3{
+          text-align: center;
+          margin-bottom: 3%;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: black;
+          font-size: 2rem;
+          text-decoration: underline;
+          text-align: center;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     .taller-balances p{
+          margin-bottom: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: black;
+          font-size: 1rem;
+          text-align: justify;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 800px;
+          font-style: italic;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;
+     }
+     #pagina-talleres .recibi-info a{
+          color: #ee5623;
+     }
+     #pagina-talleres .volver-inicio a{
+          color: #1a2222;
+          display: flex;
+          text-decoration: none;
+          justify-content: center;
+          align-content: center;
+          margin-bottom: 3%;
+          font-size: 20px;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 500px;
+          font-style: normal;
+          font-variation-settings:
+               "wdth" 100,
+               "YTLC" 500;   
+     }
+     #pagina-estilos .volver-inicio a:visited{
+          color:#ee5623;
+     }
+}
+
+}
