@@ -871,7 +871,7 @@ footer{
      }
      #pagina-estilos h2{
           margin-top: 5%;
-          font-size: 3rem;
+          font-size: 200%;
           color: black;
           text-decoration: underline;
           text-align: center;
@@ -887,11 +887,11 @@ footer{
           background-color: #EDF7FF;
           width: 40%!important;
           border-style: none;
-          margin: 5% !important;
      }
      #pagina-estilos .card-title{
           color: black;
           text-decoration: underline !important;
+          font-size: 100%;
           text-align: center !important;
           font-family: "Nunito Sans", sans-serif !important;
           font-optical-sizing: auto;
@@ -907,6 +907,7 @@ footer{
           margin-right: 8% !important;
           color: black;
           text-align: justify !important;
+          font-size: 75%;
           font-family: "Nunito Sans", sans-serif !important;
           font-optical-sizing: auto;
           font-weight: 800px;
@@ -930,6 +931,7 @@ footer{
           border-color: #ee5623 !important;
           color: black;
           text-align: justify !important;
+          font-size: small;
           font-family: "Nunito Sans", sans-serif !important;
           font-optical-sizing: auto;
           font-weight: 700;
