@@ -1,7 +1,8 @@
-*{  
-    padding: 0px;
-    margin: 0px;
-}
-html{
-    font-size: 16px;
-}
+@import "base/reset.scss";
+@import "layout/header.scss";
+@import "media-queries/header-media-desktop.scss";
+@import "layout/footer.scss";
+@import "media-queries/footer-media-desktop.scss";
+@import "layout/inicio.scss";
+@import "media-queries/inicio-media-desktop.scss";
+
