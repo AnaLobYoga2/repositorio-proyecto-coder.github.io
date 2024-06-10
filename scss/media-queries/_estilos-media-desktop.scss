@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 999px){
+@media (min-width: 999px){
     #pagina-estilos{
          padding: 10px;
          margin-top: 3%;
@@ -9,7 +9,7 @@
     #pagina-estilos{
         h2{
             margin-top: 5%;
-            font-size: 200%;
+            font-size: 3rem;
             color: black;
             text-decoration: underline;
             text-align: center;
@@ -28,6 +28,7 @@
                 background-color: #EDF7FF;
                 width: 40%!important;
                 border-style: none;
+                margin: 5%;
            }
         }
     } 
@@ -38,7 +39,6 @@
                     .card-title{
                         color: black;
                         text-decoration: underline !important;
-                        font-size: 100%;
                         text-align: center !important;
                         font-family: "Nunito Sans", sans-serif !important;
                         font-optical-sizing: auto;
@@ -61,7 +61,7 @@
                         margin-left: 8% !important;
                         margin-right: 8% !important;
                         color: black;
-                        font-size: 75%;
+                        text-align: justify !important;
                         font-family: "Nunito Sans", sans-serif !important;
                         font-optical-sizing: auto;
                         font-weight: 800px;
@@ -84,7 +84,7 @@
                 }
             }
         }
-    }    
+    }
     #pagina-estilos{
         .d-flex{
             .card{
@@ -92,27 +92,47 @@
                     a{
                         display: flex;
                         justify-content: center;
-                        font-size: 15px;
-                        padding: 5% !important;
+                        margin-top: 3%;
+                        margin-left: 26% !important;
+                        margin-right: 26% !important;
                         background-color: #ee5623 !important;
                         border-color: #ee5623 !important;
                         color: black;
-                        font-size: small;
+                        text-align: justify !important;
                         font-family: "Nunito Sans", sans-serif !important;
                         font-optical-sizing: auto;
                         font-weight: 700;
                         font-style: normal;
                         font-variation-settings:
-                             "wdth" 100,
-                             "YTLC" 500;
+                            "wdth" 100,
+                            "YTLC" 500;
+                        transition: 0.7s;
+                        &:hover{
+                            transform: scale(1.5);
+                        }
                     }
                 }
             }
         }
     }
-    #pagina-eestilos{
+    #pagina-estilos{
         .volver-inicio{
-            display: none;
+            color: #1a2222;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 3%;
+            font-size: 20px;
+            font-family: "Nunito Sans", sans-serif !important;
+            font-optical-sizing: auto;
+            font-weight: 500px;
+            font-style: normal;
+            font-variation-settings:
+                 "wdth" 100,
+                 "YTLC" 500;  
+            &:visited{
+                color:#ee5623; 
+            } 
        }
     } 
 }
