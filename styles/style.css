@@ -562,22 +562,35 @@ footer .botones-flotantes {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
-#horarios .d-flex .row .col .card .card-body a {
-  display: flex;
-  justify-content: center;
-  color: #1a2222 !important;
-  font-size: 18px !important;
-  font-family: "Nunito Sans", sans-serif !important;
-  font-optical-sizing: auto;
-  font-weight: 700px;
-  font-style: normal;
-  font-variation-settings: "wdth" 100, "YTLC" 500;
-  padding: 1% !important;
-  background-color: #ee5623;
-  border-color: #ee5623;
-  opacity: 0.8;
-}
-
+/*#horarios{
+    .d-flex{
+        .row{
+            .col{
+                .card{
+                    .card-body{
+                        a{
+                            display: flex;
+                            justify-content: center;
+                            color:#1a2222 !important;
+                            font-size: 18px !important;
+                            font-family: "Nunito Sans", sans-serif !important;
+                            font-optical-sizing: auto;
+                            font-weight: 700px;
+                            font-style: normal;
+                            font-variation-settings:
+                                "wdth" 100,
+                                "YTLC" 500;  
+                            padding: 1% !important;
+                            background-color: $color-contraste;
+                            border-color: $color-contraste;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}*/
 #talleres {
   background-color: #1a2222;
   border: rgba(188, 199, 199, 0.5);
@@ -921,26 +934,40 @@ footer .botones-flotantes {
     font-style: normal;
     font-variation-settings: "wdth" 100, "YTLC" 500;
   }
-  #horarios .d-flex .row .col .card .card-body a {
-    display: flex;
-    justify-content: center;
-    color: #1a2222 !important;
-    font-size: 18px !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-optical-sizing: auto;
-    font-weight: 700px;
-    font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
-    padding: 1% !important;
-    background-color: #ee5623;
-    border-color: #ee5623;
-    opacity: 0.8;
-    transition: 0.7s;
-  }
-  #horarios .d-flex .row .col .card .card-body a:hover {
-    color: #bcc7c7 !important;
-    padding: 10px !important;
-  }
+  /*#horarios{
+      .d-flex{
+          .row{
+              .col{
+                  .card{
+                      .card-body{
+                          a{
+                              display: flex;
+                              justify-content: center;
+                              color:#1a2222 !important;
+                              font-size: 18px !important;
+                              font-family: "Nunito Sans", sans-serif !important;
+                              font-optical-sizing: auto;
+                              font-weight: 700px;
+                              font-style: normal;
+                              font-variation-settings:
+                                  "wdth" 100,
+                                  "YTLC" 500;  
+                              padding: 1% !important;
+                              background-color:#ee5623;
+                              border-color: #ee5623;
+                              opacity: 0.8;
+                              transition: 0.7s; 
+                              &:hover{
+                                  color: #bcc7c7 !important;
+                                  padding: 10px !important;
+                              }
+                          }
+                      }
+                  }   
+              }
+          }
+      }
+  }*/
   #talleres {
     background-color: #1a2222;
     border: rgba(188, 199, 199, 0.5);
@@ -1963,6 +1990,26 @@ footer .botones-flotantes {
     font-style: normal;
     font-variation-settings: "wdth" 100, "YTLC" 500;
   }
+}
+.boton1 {
+  display: flex;
+  justify-content: center;
+  color: #1a2222 !important;
+  font-size: 18px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  padding: 1% !important;
+  background-color: #ee5623;
+  border-color: #ee5623;
+  opacity: 0.8;
+}
+.boton1:hover {
+  background-color: #1a2222 !important;
+  color: #ee5623 !important;
+  border-color: #ee5623 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
