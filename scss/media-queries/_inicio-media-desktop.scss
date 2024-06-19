@@ -23,10 +23,12 @@
             h1{
                 color:#ee5623;
                 font-size: 350%;
+                font-family: "Inconsolata", monospace;
                 font-optical-sizing: auto;
-                font-family: "Rowdies", sans-serif;
-                font-weight: 300;
-                font-style: normal;  
+                font-weight: 400px;
+                font-style: normal;
+                font-variation-settings:
+                    "wdth" 100;  
             }
         }
     } 
