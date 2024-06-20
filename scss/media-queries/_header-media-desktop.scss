@@ -23,6 +23,27 @@
         }
     }
     header{
+        div{
+            div{
+                .navbar-nav{
+                    display: flex;
+                    gap: 50px;
+                }
+            }
+        }
+    }
+    header{
+        div{
+            div{
+                .navbar-nav{
+                    .nav-item:last-child {
+                        margin-right: 0;
+                      }
+                }
+            }
+        }
+    }
+    header{
         nav{
             div{
                 ul{
@@ -30,6 +51,7 @@
                         a{
                             font-family: "Nunito Sans", sans-serif;
                             font-optical-sizing: auto;
+                            font-size: 20px !important;
                             font-weight: 500;
                             font-style: normal;
                             font-variation-settings:
