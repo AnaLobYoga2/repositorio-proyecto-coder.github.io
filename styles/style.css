@@ -9,12 +9,13 @@ html {
 }
 
 body {
-  background-color: #1a2222;
+  background: rgb(145, 133, 133);
+  background: radial-gradient(circle, rgba(145, 133, 133, 0.9220063025) 1%, rgb(19, 20, 20) 72%);
 }
 
 main {
-  margin-left: 5%;
-  margin-right: 5%;
+  /*margin-left: 5%;
+  margin-right: 5%;*/
   padding-top: 2px;
   margin-top: 50px;
 }
@@ -57,7 +58,6 @@ header nav .container-fluid button {
 @media (min-width: 999px) {
   header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -72,19 +72,17 @@ header nav .container-fluid button {
   }
   header div div .navbar-nav {
     display: flex;
-    gap: 50px;
+    gap: 5px;
   }
   header div div .navbar-nav .nav-item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
   }
   header nav div ul li a {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
-    font-size: 20px !important;
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100, "YTLC" 500;
-    font-size: 1rem;
     color: #bcc7c7 !important;
   }
   header nav div ul li a:hover {
@@ -340,24 +338,29 @@ footer .botones-flotantes {
 }
 #inicio {
   position: relative;
+  background: rgb(145, 133, 133);
+  background: radial-gradient(circle, rgba(145, 133, 133, 0.9220063025) 1%, rgb(19, 20, 20) 72%);
   border: rgba(188, 199, 199, 0.5);
   border-style: solid;
 }
 
+#inicio .carousel img {
+  opacity: 50% !important;
+  width: 100%;
+}
+
 #inicio .title {
   position: absolute;
-  transform: translate(0%, -170%);
-  padding-left: 10px;
-  padding-right: 10px;
+  transform: translate(0%, -100%);
+  width: 100%;
   padding-top: 2px;
   padding-bottom: 2px;
-  border-radius: 10px;
 }
 
 #inicio .title h1 {
   color: #ee5623;
   text-align: center;
-  font-size: 600%;
+  font-size: 200%;
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -369,18 +372,18 @@ footer .botones-flotantes {
   color: #bcc7c7;
   text-align: center;
   font-optical-sizing: auto;
-  font-size: 150%;
+  font-size: 10px;
   font-family: brandon-grotesque, sans-serif;
   font-style: italic;
   font-weight: 500;
 }
 
 #historia {
-  border: rgba(188, 199, 199, 0.5);
+  border: white;
   border-style: solid;
   padding: 30px;
   padding-bottom: 40px;
-  background-color: #1a2222;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
@@ -390,11 +393,12 @@ footer .botones-flotantes {
   width: 50%;
   margin-top: 10%;
   margin-bottom: 10%;
-  border-color: #1a2222;
-  border-style: solid;
   grid-row: 1/2;
   justify-self: center;
   align-self: center;
+  box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+  -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+  -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
 }
 
 #historia .container-historia {
@@ -408,12 +412,13 @@ footer .botones-flotantes {
 #historia .container-historia .columna1 h2 {
   margin-bottom: 10px;
   margin-top: 10px;
-  color: #ee5623;
-  text-decoration: underline !important;
+  color: rgb(227, 137, 57);
   font-size: 18px;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
-  font-weight: 100;
+  font-variation-settings: "wdth" 100;
 }
 
 #historia .container-historia .columna1 a {
@@ -434,19 +439,18 @@ footer .botones-flotantes {
 
 #historia .container-historia .columna1 p {
   margin-bottom: 40px;
-  color: #bcc7c7;
+  color: rgba(26, 34, 34, 0.6);
   font-size: 8px;
   text-decoration: none;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
-  font-style: normal;
-  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-style: italic;
 }
 
 #estilos {
   background-color: rgb(26, 34, 34);
-  border: rgba(188, 199, 199, 0.5);
+  border: white;
   border-style: solid;
   padding: 30px;
   padding-bottom: 40px;
@@ -457,18 +461,25 @@ footer .botones-flotantes {
   justify-content: center;
   padding: 20px;
   margin-bottom: 20px;
-  color: #ee5623;
+  color: rgb(227, 137, 57);
   text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-  font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#estilos div {
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 10%;
 }
 
 #estilos div .card {
-  width: 20% !important;
+  width: 70% !important;
   background-color: #1a2222;
+  border: none;
 }
 
 #estilos div .card img {
@@ -478,12 +489,11 @@ footer .botones-flotantes {
 #estilos div .card h5 {
   color: #bcc7c7 !important;
   text-align: center;
-  font-size: 18px !important;
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Inconsolata", monospace !important;
   font-optical-sizing: auto;
-  font-weight: 400px;
+  font-weight: 500;
   font-style: normal;
-  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-variation-settings: "wdth" 100;
 }
 
 #estilos div .card p {
@@ -499,7 +509,7 @@ footer .botones-flotantes {
 #estilos div .card a {
   display: flex;
   justify-content: center;
-  color: #ee5623 !important;
+  color: rgb(227, 137, 57) !important;
   font-size: 15px !important;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
@@ -512,45 +522,35 @@ footer .botones-flotantes {
 }
 
 #horarios {
-  background-color: #1a2222;
-  border: rgba(188, 199, 199, 0.5);
+  background-color: white;
+  border: white;
   border-style: solid;
   padding: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }
 
 #horarios h2 {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #ee5623;
-  font-size: 40px;
+  color: rgb(227, 137, 57);
   text-align: center;
-  text-decoration: underline;
-  font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-}
-
-#horarios p {
-  display: flex;
-  justify-content: center;
-  color: #bcc7c7;
-  font-size: 30px;
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
-  font-weight: 400px;
+  font-weight: 500;
   font-style: normal;
-  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-variation-settings: "wdth" 100;
 }
 
 #horarios .d-flex .row .col .card {
-  background-color: #1a2222;
+  transform: translate(0%, -18%);
+  border: none !important;
+  box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+  -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+  -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
 }
 
 #horarios .d-flex .row .col .card .card-body h5 {
-  color: #bcc7c7 !important;
+  color: #1a2222 !important;
   text-align: center;
   font-size: 20px !important;
   font-family: "Nunito Sans", sans-serif !important;
@@ -561,7 +561,7 @@ footer .botones-flotantes {
 }
 
 #horarios .d-flex .row .col .card .card-body p {
-  color: #bcc7c7 !important;
+  color: rgba(26, 34, 34, 0.6) !important;
   font-size: 15px !important;
   text-align: center;
   font-family: "Nunito Sans", sans-serif !important;
@@ -571,41 +571,14 @@ footer .botones-flotantes {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
-/*#horarios{
-    .d-flex{
-        .row{
-            .col{
-                .card{
-                    .card-body{
-                        a{
-                            display: flex;
-                            justify-content: center;
-                            color:#1a2222 !important;
-                            font-size: 18px !important;
-                            font-family: "Nunito Sans", sans-serif !important;
-                            font-optical-sizing: auto;
-                            font-weight: 700px;
-                            font-style: normal;
-                            font-variation-settings:
-                                "wdth" 100,
-                                "YTLC" 500;  
-                            padding: 1% !important;
-                            background-color: $color-contraste;
-                            border-color: $color-contraste;
-                            opacity: 0.8;
-                        }
-                    }
-                }
-            }   
-        }
-    }
-}*/
 #talleres {
   background-color: #1a2222;
   border: rgba(188, 199, 199, 0.5);
   border-style: solid;
   padding: 30px;
   padding-bottom: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #talleres h2 {
@@ -617,7 +590,6 @@ footer .botones-flotantes {
   color: #ee5623;
   font-size: 40px;
   text-align: center;
-  text-decoration: underline;
   font-family: brandon-grotesque, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -659,7 +631,7 @@ footer .botones-flotantes {
 #talleres .d-flex .card a {
   display: flex;
   justify-content: center;
-  color: #1a2222 !important;
+  color: #bcc7c7 !important;
   font-size: 18px !important;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
@@ -669,7 +641,7 @@ footer .botones-flotantes {
   padding: 1% !important;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #bcc7c7;
+  background-color: #1a2222 !important;
   border-color: #bcc7c7;
   opacity: 0.8;
 }
@@ -725,9 +697,15 @@ footer .botones-flotantes {
 
 @media (min-width: 999px) {
   #inicio {
+    background: rgb(145, 133, 133);
+    background: radial-gradient(circle, rgba(145, 133, 133, 0.9220063025) 1%, rgb(19, 20, 20) 72%);
     position: relative;
     border: rgba(188, 199, 199, 0.5);
     border-style: solid;
+  }
+  #inicio .carousel img {
+    opacity: 50% !important;
+    width: 100%;
   }
   #inicio .title {
     padding-top: 2px;
@@ -754,21 +732,23 @@ footer .botones-flotantes {
     font-weight: 500;
   }
   #historia {
-    border: rgba(188, 199, 199, 0.5);
-    border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
-    background-color: #1a2222;
+    background: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+    gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #historia img {
-    width: 50%;
+    width: 70%;
     margin-top: 10%;
     margin-bottom: 10%;
-    border-color: #ee5623;
-    border-style: solid;
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
     grid-column: 1/2;
     justify-self: flex-end;
     align-self: center;
@@ -784,17 +764,18 @@ footer .botones-flotantes {
   #historia .container-historia .columna1 h2 {
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #ee5623;
-    font-size: 24px;
-    text-decoration: none;
-    font-family: brandon-grotesque, sans-serif;
+    color: rgb(227, 137, 57);
+    font-size: 20px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    font-weight: 100;
+    font-variation-settings: "wdth" 100;
   }
   #historia .container-historia .columna1 a {
     padding: 5px;
     margin: 5px;
-    color: #bcc7c7;
+    color: #1a2222;
     font-size: 14px;
     text-decoration: underline;
     font-family: "Nunito Sans", sans-serif;
@@ -805,34 +786,36 @@ footer .botones-flotantes {
   }
   #historia .container-historia .columna1 p {
     margin-bottom: 40px;
-    color: #bcc7c7;
+    color: rgba(26, 34, 34, 0.6);
     font-size: 14px;
     text-decoration: none;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400px;
-    font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-style: italic;
   }
   #estilos {
     background-color: rgb(26, 34, 34);
-    border: rgba(188, 199, 199, 0.5);
+    border: white;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #estilos h2 {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin-bottom: 20px;
-    color: #ee5623;
+    color: rgb(227, 137, 57);
     text-align: center;
     font-size: 40px;
-    text-decoration: underline;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
   #estilos div .card {
     width: 20% !important;
@@ -848,12 +831,12 @@ footer .botones-flotantes {
   #estilos div .card h5 {
     color: #bcc7c7 !important;
     text-align: center;
-    font-size: 18px !important;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 18px;
+    font-family: "Inconsolata", monospace !important;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   #estilos div .card p {
     color: #bcc7c7 !important;
@@ -867,7 +850,7 @@ footer .botones-flotantes {
   #estilos div .card a {
     display: flex;
     justify-content: center;
-    color: #ee5623 !important;
+    color: rgb(227, 137, 57) !important;
     font-size: 15px !important;
     font-family: "Nunito Sans", sans-serif !important;
     font-optical-sizing: auto;
@@ -882,45 +865,38 @@ footer .botones-flotantes {
     color: black !important;
   }
   #horarios {
-    background-color: #1a2222;
-    border: rgba(188, 199, 199, 0.5);
+    background-color: white;
+    border: white;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #horarios h2 {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #ee5623;
+    color: rgb(227, 137, 57);
     font-size: 40px;
     text-align: center;
-    text-decoration: underline;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-  }
-  #horarios p {
-    display: flex;
-    justify-content: center;
-    color: #bcc7c7;
-    font-size: 30px;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-family: "Inconsolata", monospace !important;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   #horarios .d-flex .row .col .card {
-    background-color: #1a2222;
+    transform: translate(0%, -10%);
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
     transition: 0.7s;
   }
   #horarios .d-flex .row .col .card:hover {
     margin-top: 10px !important;
   }
   #horarios .d-flex .row .col .card .card-body h5 {
-    color: #bcc7c7 !important;
+    color: #1a2222 !important;
     text-align: center;
     font-size: 20px !important;
     font-family: "Nunito Sans", sans-serif !important;
@@ -930,7 +906,7 @@ footer .botones-flotantes {
     font-variation-settings: "wdth" 100, "YTLC" 500;
   }
   #horarios .d-flex .row .col .card .card-body p {
-    color: #bcc7c7 !important;
+    color: rgba(26, 34, 34, 0.6) !important;
     font-size: 15px !important;
     text-align: center;
     font-family: "Nunito Sans", sans-serif !important;
@@ -939,46 +915,14 @@ footer .botones-flotantes {
     font-style: normal;
     font-variation-settings: "wdth" 100, "YTLC" 500;
   }
-  /*#horarios{
-      .d-flex{
-          .row{
-              .col{
-                  .card{
-                      .card-body{
-                          a{
-                              display: flex;
-                              justify-content: center;
-                              color:#1a2222 !important;
-                              font-size: 18px !important;
-                              font-family: "Nunito Sans", sans-serif !important;
-                              font-optical-sizing: auto;
-                              font-weight: 700px;
-                              font-style: normal;
-                              font-variation-settings:
-                                  "wdth" 100,
-                                  "YTLC" 500;  
-                              padding: 1% !important;
-                              background-color:#ee5623;
-                              border-color: #ee5623;
-                              opacity: 0.8;
-                              transition: 0.7s; 
-                              &:hover{
-                                  color: #bcc7c7 !important;
-                                  padding: 10px !important;
-                              }
-                          }
-                      }
-                  }   
-              }
-          }
-      }
-  }*/
   #talleres {
     background-color: #1a2222;
     border: rgba(188, 199, 199, 0.5);
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #talleres h2 {
     display: flex;
@@ -986,27 +930,29 @@ footer .botones-flotantes {
     padding: 20px;
     margin-top: 3%;
     margin-bottom: 20px;
-    color: #ee5623;
+    color: rgb(227, 137, 57);
     font-size: 40px;
     text-align: center;
-    text-decoration: underline;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
   #talleres p {
     display: flex;
     justify-content: center;
-    color: #bcc7c7;
     font-size: 20px;
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: "Nunito Sans", sans-serif !important;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400px;
-    font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-style: italic;
   }
   #talleres .card {
     width: 20% !important;
@@ -1019,7 +965,7 @@ footer .botones-flotantes {
     padding: 30px !important;
   }
   #talleres .d-flex .card h5 {
-    color: #ee5623;
+    color: rgb(227, 137, 57);
     font-size: 20px;
     text-align: center;
     font-family: "Nunito Sans", sans-serif !important;
@@ -1031,7 +977,7 @@ footer .botones-flotantes {
   #talleres .d-flex .card a {
     display: flex;
     justify-content: center;
-    color: #1a2222 !important;
+    color: #bcc7c7 !important;
     font-size: 18px !important;
     font-family: "Nunito Sans", sans-serif !important;
     font-optical-sizing: auto;
@@ -1047,7 +993,7 @@ footer .botones-flotantes {
     transition: 0.7s;
   }
   #talleres .d-flex .card a:hover {
-    background-color: #ee5623 !important;
+    background-color: rgb(227, 137, 57) !important;
     color: black !important;
   }
   #tienda {
@@ -1056,6 +1002,8 @@ footer .botones-flotantes {
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #tienda h2 {
     color: #ee5623;
@@ -1099,7 +1047,7 @@ footer .botones-flotantes {
 @media (min-width: 200px) and (max-width: 999px) {
   .pagina-historia {
     padding: 10px;
-    background-color: #EDF7FF;
+    background-color: white;
     border-bottom: #1a2222;
     border-style: solid;
   }
@@ -1114,16 +1062,15 @@ footer .botones-flotantes {
   .pagina-historia .clearfix h2 {
     font-size: 200%;
     color: black;
-    text-decoration: underline;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 800px;
+    font-weight: 100;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   .pagina-historia .clearfix p {
-    color: #1a2222;
+    color: rgba(26, 34, 34, 0.6);
     font-size: 100%;
     text-align: justify;
     font-family: "Nunito Sans", sans-serif !important;
@@ -1135,26 +1082,26 @@ footer .botones-flotantes {
   .pagina-historia .clearfix img {
     margin-top: 22%;
     width: 90%;
-    border: #1a2222;
-    border-style: solid;
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
   }
   .pagina-historia .container-fluid h2 {
     font-size: 200%;
     color: black;
-    text-decoration: underline;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 800px;
+    font-weight: 100;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   .pagina-historia .container-fluid p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
-    color: #1a2222;
+    color: rgba(26, 34, 34, 0.6);
     font-size: 100%;
     text-align: justify;
     font-family: "Nunito Sans", sans-serif !important;
@@ -1175,8 +1122,9 @@ footer .botones-flotantes {
   .pagina-historia .container-fluid img {
     width: 40%;
     margin-bottom: 5%;
-    border: #1a2222;
-    border-style: solid;
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
   }
   .pagina-historia .volver-inicio {
     display: none;
@@ -1185,9 +1133,11 @@ footer .botones-flotantes {
 @media (min-width: 999px) {
   .pagina-historia {
     padding: 10px;
-    background-color: #EDF7FF;
+    background-color: white;
     border-bottom: #1a2222;
     border-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .pagina-historia .clearfix {
     display: flex;
@@ -1196,20 +1146,19 @@ footer .botones-flotantes {
     margin-left: 15%;
   }
   .pagina-historia .clearfix h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
-    text-decoration: underline;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 800px;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   .pagina-historia .clearfix p {
     margin: 5%;
-    color: #1a2222;
-    font-size: 20px;
+    color: rgba(26, 34, 34, 0.6);
+    font-size: 1rem;
     text-align: justify;
     font-family: "Nunito Sans", sans-serif !important;
     font-optical-sizing: auto;
@@ -1219,32 +1168,32 @@ footer .botones-flotantes {
   }
   .pagina-historia .clearfix img {
     margin-top: 22%;
-    width: 70%;
-    border: #1a2222;
-    border-style: solid;
+    width: 50%;
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
     transition: 0.7s;
   }
   .pagina-historia .clearfix img:hover {
     transform: scale(1.5);
   }
   .pagina-historia .container-fluid h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
-    text-decoration: underline;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif !important;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 800px;
+    font-weight: 500;
     font-style: normal;
-    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-variation-settings: "wdth" 100;
   }
   .pagina-historia .container-fluid p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
-    color: #1a2222;
-    font-size: 20px;
+    color: rgba(26, 34, 34, 0.6);
+    font-size: 1rem;
     text-align: justify;
     font-family: "Nunito Sans", sans-serif !important;
     font-optical-sizing: auto;
@@ -1260,13 +1209,14 @@ footer .botones-flotantes {
     margin-right: 5%;
   }
   .pagina-historia .container-fluid img {
-    width: 22%;
-    border: #1a2222;
-    border-style: solid;
+    width: 18%;
+    box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -webkit-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
+    -moz-box-shadow: 6px 3px 21px 4px rgba(36, 35, 35, 0.56);
     transition: 0.7s;
   }
   .pagina-historia .container-fluid img:hover {
-    transform: scale(1.8);
+    transform: scale(2);
   }
   .pagina-historia .volver-inicio {
     color: #1a2222;
@@ -2000,16 +1950,14 @@ footer .botones-flotantes {
   display: flex;
   justify-content: center;
   color: #1a2222 !important;
-  font-size: 18px !important;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;
   font-variation-settings: "wdth" 100, "YTLC" 500;
   padding: 1% !important;
-  background-color: #ee5623;
-  border-color: #ee5623;
-  opacity: 0.8;
+  background-color: rgb(227, 137, 57);
+  border-color: rgb(227, 137, 57);
 }
 .boton1:hover {
   background-color: #1a2222 !important;

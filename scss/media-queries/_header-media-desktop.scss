@@ -1,7 +1,6 @@
 @media (min-width: 999px){
     header{
         display: flex;
-        justify-content: space-between;
         align-items: center;
         position: fixed; 
         top: 0;
@@ -27,7 +26,7 @@
             div{
                 .navbar-nav{
                     display: flex;
-                    gap: 50px;
+                    gap: 5px;
                 }
             }
         }
@@ -37,7 +36,7 @@
             div{
                 .navbar-nav{
                     .nav-item:last-child {
-                        margin-right: 0;
+                        margin-right: 0px;
                       }
                 }
             }
@@ -51,13 +50,11 @@
                         a{
                             font-family: "Nunito Sans", sans-serif;
                             font-optical-sizing: auto;
-                            font-size: 20px !important;
                             font-weight: 500;
                             font-style: normal;
                             font-variation-settings:
                              "wdth" 100,
-                             "YTLC" 500;  
-                            font-size: 1rem; 
+                             "YTLC" 500; 
                             color: #bcc7c7 !important; 
                            
                             &:hover{

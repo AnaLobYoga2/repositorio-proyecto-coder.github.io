@@ -6,10 +6,12 @@ html{
     font-size: 16px;
 }
 body{
-    background-color:#1a2222;
+    background: rgb(145,133,133);
+    background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);
 }
-main{margin-left: 5%;
-    margin-right: 5%;
+main{
+    /*margin-left: 5%;
+    margin-right: 5%;*/
     padding-top: 2px;
     margin-top: 50px;
 }

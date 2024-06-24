@@ -2,12 +2,12 @@ $color-base:#1a2222;
 $color-secundario:rgb(188,199,199, 0.5);
 $color-blanco: #bcc7c7;
 $color-contraste: #ee5623;
+$color-naranja: rgb(227, 137, 57);
 
 .boton1{
     display: flex;
     justify-content: center;
     color:#1a2222 !important;
-    font-size: 18px !important;
     font-family: "Nunito Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 700px;
@@ -16,9 +16,8 @@ $color-contraste: #ee5623;
         "wdth" 100,
         "YTLC" 500;  
     padding: 1% !important;
-    background-color: $color-contraste;
-    border-color: $color-contraste;
-    opacity: 0.8;
+    background-color: $color-naranja;
+    border-color: $color-naranja;
     &:hover{
         background-color: $color-base !important;
         color: $color-contraste !important;

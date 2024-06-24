@@ -1,7 +1,7 @@
 @media (min-width: 200px) and (max-width: 999px) {
     .pagina-historia{
          padding: 10px;
-         background-color: #EDF7FF;
+         background-color: #ffff;
          border-bottom: #1a2222;
          border-style: solid;
     }
@@ -20,22 +20,20 @@
             h2{
                 font-size: 200%;
                 color: black;
-                text-decoration: underline;
                 text-align: center;
-                font-family: "Nunito Sans", sans-serif !important;
+                font-family: "Inconsolata", monospace;
                 font-optical-sizing: auto;
-                font-weight: 800px;
+                font-weight: 100;
                 font-style: normal;
                 font-variation-settings:
-                     "wdth" 100,
-                     "YTLC" 500;   
+                "wdth" 100;    
             }
         }
     }  
     .pagina-historia{
         .clearfix{
             p{
-                color:#1a2222;
+                color:rgb(26, 34, 34, 0.6);
                 font-size: 100%;
                 text-align:justify;
                 font-family: "Nunito Sans", sans-serif !important;
@@ -53,8 +51,9 @@
             img{
                 margin-top: 22%;
                 width: 90%;
-                border:#1a2222;
-                border-style: solid; 
+                box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56); 
             }
         }
     } 
@@ -63,15 +62,13 @@
             h2{
                 font-size: 200%;
                 color: black;
-                text-decoration: underline;
                 text-align: center;
-                font-family: "Nunito Sans", sans-serif !important;
+                font-family: "Inconsolata", monospace;
                 font-optical-sizing: auto;
-                font-weight: 800px;
+                font-weight: 100;
                 font-style: normal;
                 font-variation-settings:
-                    "wdth" 100,
-                    "YTLC" 500;
+                "wdth" 100;  
             }
         }
     } 
@@ -82,7 +79,7 @@
                 margin-left: 10%;
                 margin-right: 10%;
                 margin-bottom: 5%;
-                color:#1a2222;
+                color:rgb(26, 34, 34, 0.6);
                 font-size: 100%;
                 text-align:justify;
                 font-family: "Nunito Sans", sans-serif !important;
@@ -113,8 +110,9 @@
             img{
                 width: 40%;
                 margin-bottom: 5%;
-                border:#1a2222;
-                border-style: solid;
+                box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
             }
         }
     } 

@@ -1,8 +1,24 @@
+$color-base:#1a2222;
+$color-secundario:rgb(188,199,199, 0.5);
+$color-blanco: #bcc7c7;
+$color-contraste: #ee5623;
+$color-naranja: rgb(227, 137, 57);
+
 @media (min-width: 999px){
     #inicio{
+         background: rgb(145,133,133);
+         background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);
          position: relative;
-         border: rgb(188,199,199, 0.5);
+         border: $color-secundario;
          border-style: solid;
+    }
+    #inicio{
+        .carousel{
+            img{
+                opacity: 50% !important;
+                width: 100%;
+            }
+        }
     }
     #inicio{
         .title{
@@ -29,7 +45,7 @@
     #inicio{
         .title{
             h2{
-                color:#bcc7c7;
+                color:$color-blanco;
                 text-align: center;
                 font-optical-sizing: auto;
                 font-size: 150%;
@@ -40,22 +56,24 @@
         }
     }  
     #historia{
-         border: rgb(188,199,199, 0.5);
-         border-style: solid;
          padding:30px;
          padding-bottom: 40px;
-         background-color:#1a2222;
+         background: #ffff;
          display: grid;
          grid-template-columns: repeat(2, 1fr);
          grid-template-rows: auto;
+         gap: 30px;
+         margin-left: 5%;
+         margin-right: 5%;
     }
     #historia{
         img{
-            width: 50%;
+            width: 70%;
             margin-top: 10%;
             margin-bottom: 10%;
-            border-color:#ee5623;
-            border-style: solid;
+            box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+            -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+            -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
             grid-column: 1/2;
             justify-self:flex-end;
             align-self: center;
@@ -77,12 +95,14 @@
                 h2{
                     margin-bottom: 10px;
                     margin-top: 10px;
-                    color:#ee5623;
-                    font-size: 24px;
-                    text-decoration:none;
-                    font-family: brandon-grotesque, sans-serif;
+                    color: $color-naranja;
+                    font-size: 20px;
+                    font-family: "Inconsolata", monospace;
+                    font-optical-sizing: auto;
+                    font-weight: 500;
                     font-style: normal;
-                    font-weight: 100;
+                    font-variation-settings:
+                         "wdth" 100;
                 }
             }
         }
@@ -93,7 +113,7 @@
                 a{
                     padding: 5px; 
                     margin: 5px;
-                    color:#bcc7c7;
+                    color: $color-base;
                     font-size: 14px;
                     text-decoration:underline;
                     font-family: "Nunito Sans", sans-serif;
@@ -106,32 +126,31 @@
                 }
             }
         }
-    }   
+    } 
     #historia{
         .container-historia{
             .columna1{
                 p{
                     margin-bottom: 40px;
-                    color:#bcc7c7;
+                    color:rgb(26, 34, 34, 0.6);
                     font-size: 14px;
                     text-decoration:none;
-                    font-family: "Nunito Sans", sans-serif;
+                    font-family: "Montserrat", sans-serif;
                     font-optical-sizing: auto;
                     font-weight: 400px;
-                    font-style: normal;
-                    font-variation-settings:
-                         "wdth" 100,
-                         "YTLC" 500;
+                    font-style: italic;
                 }
             }
         }
     }     
     #estilos{
         background-color:rgb(26,34,34);
-        border: rgb(188,199,199, 0.5);
+        border: #ffff;
         border-style: solid;
         padding:30px;
         padding-bottom: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     #estilos{
         h2{
@@ -139,15 +158,17 @@
             justify-content: center;
             padding: 20px;
             margin-bottom: 20px;
-            color:#ee5623;
+            color: $color-naranja;
             text-align: center;
             font-size: 40px;
-            text-decoration:underline;
-            font-family: brandon-grotesque, sans-serif;
-            font-style: normal;
+            font-family: "Inconsolata", monospace;
+            font-optical-sizing: auto;
             font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                 "wdth" 100; 
         }
-    }
+    } 
     #estilos{
         div{
             .card{
@@ -173,16 +194,15 @@
         div{
             .card{
                 h5{
-                    color:#bcc7c7 !important;
+                    color: $color-blanco !important;
                     text-align: center;
-                    font-size: 18px !important;
-                    font-family: "Nunito Sans", sans-serif !important;
+                    font-size: 18px;
+                    font-family: "Inconsolata", monospace !important;
                     font-optical-sizing: auto;
-                    font-weight: 400px;
+                    font-weight: 500;
                     font-style: normal;
                     font-variation-settings:
-                        "wdth" 100,
-                        "YTLC" 500;    
+                         "wdth" 100;
                 }
             }
         }
@@ -191,7 +211,7 @@
         div{
             .card{
                 p{
-                    color:#bcc7c7 !important;
+                    color: $color-blanco !important;
                     font-size: 12px !important;
                     font-family: "Nunito Sans", sans-serif !important;
                     font-optical-sizing: auto;
@@ -210,7 +230,7 @@
                 a{
                     display: flex;
                     justify-content: center;
-                    color:#ee5623 !important;
+                    color: $color-naranja !important;
                     font-size: 15px !important;
                     font-family: "Nunito Sans", sans-serif !important;
                     font-optical-sizing: auto;
@@ -230,40 +250,27 @@
         }
     }
     #horarios{
-        background-color:#1a2222;
-        border: rgb(188,199,199, 0.5);
+        background-color: #ffff;
+        border: #ffff;
         border-style: solid;
         padding: 30px;
         padding-bottom: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     #horarios{
         h2{
             display: flex;
             justify-content: center;
-            padding: 20px;
-            margin-bottom: 20px;
-            color:#ee5623;
+            color: $color-naranja;
             font-size: 40px;
             text-align: center;
-            text-decoration:underline;
-            font-family: brandon-grotesque, sans-serif;
-            font-style: normal;
-            font-weight: 500;
-        }
-    } 
-    #horarios{
-        p{
-            display: flex;
-            justify-content: center;
-            color:#bcc7c7;
-            font-size: 30px;
-            font-family: "Nunito Sans", sans-serif !important;
+            font-family: "Inconsolata", monospace !important;
             font-optical-sizing: auto;
-            font-weight: 400px;
+            font-weight: 500;
             font-style: normal;
             font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;  
+                  "wdth" 100;
         }
     } 
     #horarios{
@@ -271,7 +278,10 @@
             .row{
                 .col{
                     .card{
-                        background-color:#1a2222;
+                        transform: translate(0%, -10%);
+                        box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                        -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                        -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
                         transition: 0.7s;
                         &:hover{
                             margin-top: 10px !important;
@@ -288,7 +298,7 @@
                     .card{
                         .card-body{
                             h5{
-                                color:#bcc7c7 !important;
+                                color:$color-base !important;
                                 text-align: center;
                                 font-size: 20px !important;
                                 font-family: "Nunito Sans", sans-serif !important;
@@ -312,7 +322,7 @@
                     .card{
                         .card-body{
                             p{
-                                color:#bcc7c7 !important;
+                                color:rgb(26, 34, 34, 0.6)!important;
                                 font-size: 15px !important;
                                 text-align: center;
                                 font-family: "Nunito Sans", sans-serif !important;
@@ -329,46 +339,14 @@
             }
         }
     }
-    /*#horarios{
-        .d-flex{
-            .row{
-                .col{
-                    .card{
-                        .card-body{
-                            a{
-                                display: flex;
-                                justify-content: center;
-                                color:#1a2222 !important;
-                                font-size: 18px !important;
-                                font-family: "Nunito Sans", sans-serif !important;
-                                font-optical-sizing: auto;
-                                font-weight: 700px;
-                                font-style: normal;
-                                font-variation-settings:
-                                    "wdth" 100,
-                                    "YTLC" 500;  
-                                padding: 1% !important;
-                                background-color:#ee5623;
-                                border-color: #ee5623;
-                                opacity: 0.8;
-                                transition: 0.7s; 
-                                &:hover{
-                                    color: #bcc7c7 !important;
-                                    padding: 10px !important;
-                                }
-                            }
-                        }
-                    }   
-                }
-            }
-        }
-    }*/
     #talleres{
         background-color:#1a2222;
         border: rgb(188,199,199, 0.5);
         border-style: solid;
         padding: 30px;
         padding-bottom: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
    }
    #talleres{
         h2{
@@ -377,31 +355,32 @@
             padding: 20px;
             margin-top: 3%;
             margin-bottom: 20px;
-            color:#ee5623;
+            color: $color-naranja;
             font-size: 40px;
             text-align: center;
-            text-decoration:underline;
-            font-family: brandon-grotesque, sans-serif;
-            font-style: normal;
+            font-family: "Inconsolata", monospace;
+            font-optical-sizing: auto;
             font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                 "wdth" 100;
     }
    } 
    #talleres{
         p{
             display: flex;
             justify-content: center;
-            color:#bcc7c7;
             font-size: 20px;
             text-align: justify;
             margin-left: 10%;
             margin-right: 10%;
-            font-family: "Nunito Sans", sans-serif !important;
+            color:#ffff;
+            font-size: 14px;
+            text-decoration:none;
+            font-family: "Montserrat", sans-serif;
             font-optical-sizing: auto;
             font-weight: 400px;
-            font-style: normal;
-            font-variation-settings:
-                "wdth" 100,
-                "YTLC" 500; 
+            font-style: italic;
     }
    } 
    #talleres .card{
@@ -425,7 +404,7 @@
         .d-flex{
             .card{
                 h5{
-                    color:#ee5623;
+                    color: $color-naranja;
                     font-size: 20px;
                     text-align: center;
                     font-family: "Nunito Sans", sans-serif !important;
@@ -445,7 +424,7 @@
                 a{
                     display: flex;
                     justify-content: center;
-                    color:#1a2222 !important;
+                    color: $color-blanco !important;
                     font-size: 18px !important;
                     font-family: "Nunito Sans", sans-serif !important;
                     font-optical-sizing: auto;
@@ -462,7 +441,7 @@
                     opacity: 0.8;
                     transition: 0.7s; 
                     &:hover{
-                        background-color:#ee5623 !important;
+                        background-color: $color-naranja !important;
                         color: black !important;
                     }
                 }
@@ -475,6 +454,8 @@
         border-style: solid;
         padding: 30px;
         padding-bottom: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
    }
    #tienda{
         h2{
