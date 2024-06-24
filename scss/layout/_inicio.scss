@@ -171,9 +171,7 @@ $color-naranja: rgb(227, 137, 57);
 }
 #estilos{
     div{
-        flex-wrap: wrap;
-        flex-direction:column;
-        margin-left: 10%;
+       margin-left: 25px;
     }
 }
 #estilos{
@@ -335,12 +333,10 @@ $color-naranja: rgb(227, 137, 57);
 }
 #talleres{
     background-color:#1a2222;
-    border: rgb(188,199,199, 0.5);
+    border: #ffff;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 #talleres{
     h2{
@@ -349,12 +345,14 @@ $color-naranja: rgb(227, 137, 57);
         padding: 20px;
         margin-top: 3%;
         margin-bottom: 20px;
-        color: $color-contraste;
-        font-size: 40px;
+        color: $color-naranja;
         text-align: center;
-        font-family: brandon-grotesque, sans-serif;
-        font-style: normal;
+        font-family: "Inconsolata", monospace;
+        font-optical-sizing: auto;
         font-weight: 500;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
     }
 } 
 #talleres{
@@ -362,21 +360,19 @@ $color-naranja: rgb(227, 137, 57);
         display: flex;
         justify-content: center;
         color:$color-blanco;
-        font-size: 20px;
         text-align: justify;
         margin-left: 10%;
         margin-right: 10%;
-        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 10px;
+        font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400px;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100,
-            "YTLC" 500; 
+        font-style: italic;
     }
 } 
 #talleres .card{
-    width: 20% !important;
+    flex-wrap:wrap;
+    width: 80% !important;
     background-color:#1a2222;
     border-style: none;
     padding: 15px;  
@@ -385,9 +381,9 @@ $color-naranja: rgb(227, 137, 57);
     .d-flex{
         .card{
             h5{
-                color: $color-contraste;
-                font-size: 20px;
+                color: $color-naranja;
                 text-align: center;
+                font-size: 10px;
                 font-family: "Nunito Sans", sans-serif !important;
                 font-optical-sizing: auto;
                 font-weight: 400px;
@@ -406,7 +402,7 @@ $color-naranja: rgb(227, 137, 57);
                 display: flex;
                 justify-content: center;
                 color: $color-blanco !important;
-                font-size: 18px !important;
+                font-size: 12px !important;
                 font-family: "Nunito Sans", sans-serif !important;
                 font-optical-sizing: auto;
                 font-weight: 700px;
@@ -425,15 +421,15 @@ $color-naranja: rgb(227, 137, 57);
     }
 }
 #tienda{
-    background-color: $color-blanco;
-    border: rgb(188,199,199, 0.5);
+    background-color: #ffff;
+    border: #ffff;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
 }
 #tienda{
     h2{
-        color: $color-contraste;
+        color: $color-naranja;
         display: flex;
         justify-content: center;
         padding: 20px;

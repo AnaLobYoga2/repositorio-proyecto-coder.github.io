@@ -37,6 +37,14 @@ header nav div a img {
   width: 25%;
 }
 
+header nav div .navbar-toggler-icon img {
+  width: 20px;
+}
+
+header nav div .navbar-toggler {
+  padding: 0px !important;
+}
+
 header nav div ul li a {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -144,8 +152,8 @@ footer #form-contacto p {
   padding: 15px;
   margin-top: 2%;
   color: #ee5623;
+  font-size: small;
   text-align: center;
-  font-size: large;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -157,6 +165,9 @@ footer #form-contacto .container-form {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 3%;
+  flex-wrap: wrap !important;
+  break-before: 500px !important;
+  flex-direction: column !important;
 }
 
 footer #form-contacto .container-form label {
@@ -181,9 +192,9 @@ footer .contacto {
 }
 
 footer .contacto h3 {
-  margin-top: 5%;
+  margin-top: 10%;
   color: #ee5623;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   text-decoration: underline;
   font-family: "Nunito Sans", sans-serif !important;
@@ -195,7 +206,7 @@ footer .contacto h3 {
 
 footer .contacto p {
   color: #bcc7c7 !important;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
@@ -214,12 +225,17 @@ footer .contacto ul {
 }
 
 footer .end h3 {
-  font-size: 100%;
+  font-size: 50%;
   color: black;
 }
 
 footer .botones-flotantes {
-  display: none;
+  display: block;
+  position: fixed;
+}
+
+footer .botones-flotantes a img {
+  width: 100%;
 }
 
 @media (min-width: 999px) {
@@ -332,9 +348,11 @@ footer .botones-flotantes {
     font-size: 100%;
     color: black;
   }
-  footer .botones-flotantes {
-    display: none;
-  }
+  /*footer{
+      .botones-flotantes{
+          display: none;
+      }
+  }*/
 }
 #inicio {
   position: relative;
@@ -471,9 +489,7 @@ footer .botones-flotantes {
 }
 
 #estilos div {
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 10%;
+  margin-left: 25px;
 }
 
 #estilos div .card {
@@ -573,12 +589,10 @@ footer .botones-flotantes {
 
 #talleres {
   background-color: #1a2222;
-  border: rgba(188, 199, 199, 0.5);
+  border: white;
   border-style: solid;
   padding: 30px;
   padding-bottom: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 #talleres h2 {
@@ -587,40 +601,41 @@ footer .botones-flotantes {
   padding: 20px;
   margin-top: 3%;
   margin-bottom: 20px;
-  color: #ee5623;
-  font-size: 40px;
+  color: rgb(227, 137, 57);
   text-align: center;
-  font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 #talleres p {
   display: flex;
   justify-content: center;
   color: #bcc7c7;
-  font-size: 20px;
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
-  font-style: normal;
-  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-style: italic;
 }
 
 #talleres .card {
-  width: 20% !important;
+  flex-wrap: wrap;
+  width: 80% !important;
   background-color: #1a2222;
   border-style: none;
   padding: 15px;
 }
 
 #talleres .d-flex .card h5 {
-  color: #ee5623;
-  font-size: 20px;
+  color: rgb(227, 137, 57);
   text-align: center;
+  font-size: 10px;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 400px;
@@ -632,7 +647,7 @@ footer .botones-flotantes {
   display: flex;
   justify-content: center;
   color: #bcc7c7 !important;
-  font-size: 18px !important;
+  font-size: 12px !important;
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 700px;
@@ -647,15 +662,15 @@ footer .botones-flotantes {
 }
 
 #tienda {
-  background-color: #bcc7c7;
-  border: rgba(188, 199, 199, 0.5);
+  background-color: white;
+  border: white;
   border-style: solid;
   padding: 30px;
   padding-bottom: 40px;
 }
 
 #tienda h2 {
-  color: #ee5623;
+  color: rgb(227, 137, 57);
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -917,7 +932,7 @@ footer .botones-flotantes {
   }
   #talleres {
     background-color: #1a2222;
-    border: rgba(188, 199, 199, 0.5);
+    border: white;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
@@ -942,7 +957,6 @@ footer .botones-flotantes {
   #talleres p {
     display: flex;
     justify-content: center;
-    font-size: 20px;
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
@@ -987,7 +1001,7 @@ footer .botones-flotantes {
     padding: 1% !important;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #bcc7c7;
+    background-color: #1a2222;
     border-color: #bcc7c7;
     opacity: 0.8;
     transition: 0.7s;
@@ -997,8 +1011,8 @@ footer .botones-flotantes {
     color: black !important;
   }
   #tienda {
-    background-color: #bcc7c7;
-    border: rgba(188, 199, 199, 0.5);
+    background-color: white;
+    border: white;
     border-style: solid;
     padding: 30px;
     padding-bottom: 40px;
@@ -1006,7 +1020,7 @@ footer .botones-flotantes {
     margin-right: 5%;
   }
   #tienda h2 {
-    color: #ee5623;
+    color: rgb(227, 137, 57);
     display: flex;
     justify-content: center;
     padding: 20px;

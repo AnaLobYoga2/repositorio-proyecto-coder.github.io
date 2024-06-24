@@ -24,6 +24,26 @@ header{
 header{
     nav{
         div{
+           .navbar-toggler-icon{
+                img{
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+header{
+    nav{
+        div{
+           .navbar-toggler{
+               padding: 0px!important;
+             }
+        }
+    }
+}
+header{
+    nav{
+        div{
             ul{
                 li{
                     a{

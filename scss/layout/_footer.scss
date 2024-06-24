@@ -45,8 +45,8 @@ footer{
             padding: 15px;
             margin-top: 2%;
             color:#ee5623;
+            font-size: small;
             text-align: center;
-            font-size: large;
             font-family: "Nunito Sans", sans-serif;
             font-optical-sizing: auto;
             font-weight: 400;
@@ -63,6 +63,9 @@ footer{
             margin-left: 10%;
             margin-right: 10%;
             margin-bottom: 3%;
+            flex-wrap: wrap !important;
+            break-before: 500px !important;
+            flex-direction: column !important;
         }
     }
 }
@@ -108,9 +111,9 @@ footer{
 footer{
     .contacto{
         h3{
-            margin-top: 5%;
+            margin-top: 10%;
             color:#ee5623;
-            font-size: 20px;
+            font-size: 15px;
             text-align: center;
             text-decoration: underline;
             font-family: "Nunito Sans", sans-serif !important;
@@ -127,7 +130,7 @@ footer{
     .contacto{
         p{
             color:#bcc7c7 !important;
-            font-size: 20px;
+            font-size: 15px;
             text-align: center;
             font-family: "Nunito Sans", sans-serif !important;
             font-optical-sizing: auto;
@@ -154,13 +157,23 @@ footer{
 footer{
     .end{
         h3{
-            font-size: 100%;
+            font-size: 50%;
             color: black;  
         }
     }
 }
 footer{
     .botones-flotantes{
-        display: none;
+        display:block;
+        position: fixed;
+    }
+}
+footer{
+    .botones-flotantes{
+        a{
+            img{
+                width: 100%;
+            }
+        }
     }
 }
