@@ -2,7 +2,7 @@
     #pagina-estilos{
          padding: 10px;
          margin-top: 3%;
-         background-color:#EDF7FF;
+         background-color: $color-base;
          border-bottom: #1a2222;
          border-style: solid;
     }
@@ -10,24 +10,22 @@
         h2{
             margin-top: 5%;
             font-size: 200%;
-            color: black;
-            text-decoration: underline;
+            color: $color-naranja;
             text-align: center;
-            font-family: "Nunito Sans", sans-serif !important;
+            font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 800px;
+            font-weight: 500;
             font-style: normal;
             font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;
+             "wdth" 100;
        }
     } 
     #pagina-estilos{
         .d-flex{
             .card{
-                background-color: #EDF7FF;
-                width: 40%!important;
+                background-color: $color-base;
                 border-style: none;
+                margin-left: 20%;
            }
         }
     } 
@@ -36,7 +34,7 @@
             .card{
                 .card-body{
                     .card-title{
-                        color: black;
+                        color: #ffff;
                         text-decoration: underline !important;
                         font-size: 100%;
                         text-align: center !important;
@@ -60,7 +58,7 @@
                         margin-top: 3%;
                         margin-left: 8% !important;
                         margin-right: 8% !important;
-                        color: black;
+                        color: $color-secundario;
                         font-size: 75%;
                         font-family: "Nunito Sans", sans-serif !important;
                         font-optical-sizing: auto;
@@ -94,8 +92,8 @@
                         justify-content: center;
                         font-size: 15px;
                         padding: 5% !important;
-                        background-color: #ee5623 !important;
-                        border-color: #ee5623 !important;
+                        background-color: $color-naranja!important;
+                        border-color: $color-naranja !important;
                         color: black;
                         font-size: small;
                         font-family: "Nunito Sans", sans-serif !important;

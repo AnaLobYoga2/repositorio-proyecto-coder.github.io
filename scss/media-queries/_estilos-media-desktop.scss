@@ -2,7 +2,7 @@
     #pagina-estilos{
          padding: 10px;
          margin-top: 3%;
-         background-color:#EDF7FF;
+         background-color:$color-base;
          border-bottom: #1a2222;
          border-style: solid;
     }
@@ -10,22 +10,20 @@
         h2{
             margin-top: 5%;
             font-size: 3rem;
-            color: black;
-            text-decoration: underline;
+            color: $color-naranja;
             text-align: center;
-            font-family: "Nunito Sans", sans-serif !important;
+            font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 800px;
+            font-weight: 500;
             font-style: normal;
             font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;
+             "wdth" 100;
        }
     } 
     #pagina-estilos{
         .d-flex{
             .card{
-                background-color: #EDF7FF;
+                background-color: $color-base;
                 width: 40%!important;
                 border-style: none;
                 margin: 5%;
@@ -37,7 +35,7 @@
             .card{
                 .card-body{
                     .card-title{
-                        color: black;
+                        color: #ffff;
                         text-decoration: underline !important;
                         text-align: center !important;
                         font-family: "Nunito Sans", sans-serif !important;
@@ -60,7 +58,7 @@
                         margin-top: 3%;
                         margin-left: 8% !important;
                         margin-right: 8% !important;
-                        color: black;
+                        color: $color-secundario;
                         text-align: justify !important;
                         font-family: "Nunito Sans", sans-serif !important;
                         font-optical-sizing: auto;
@@ -95,8 +93,8 @@
                         margin-top: 3%;
                         margin-left: 26% !important;
                         margin-right: 26% !important;
-                        background-color: #ee5623 !important;
-                        border-color: #ee5623 !important;
+                        background-color: $color-naranja !important;
+                        border-color: $color-naranja !important;
                         color: black;
                         text-align: justify !important;
                         font-family: "Nunito Sans", sans-serif !important;
