@@ -1,7 +1,7 @@
 $color-base:#1a2222;
 $color-secundario:rgb(188,199,199, 0.5);
 $color-blanco: #bcc7c7;
-$color-contraste: #ee5623;
+$color-contraste: rgb(227, 137, 57);
 $color-naranja: rgb(227, 137, 57);
 
 #inicio{
@@ -37,7 +37,7 @@ $color-naranja: rgb(227, 137, 57);
             font-size: 200%;
             font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 100;
+            font-weight: 300;
             font-style: normal;
             font-variation-settings:
                 "wdth" 100;  

@@ -2,7 +2,7 @@
     #pagina-talleres{
         padding: 10px;
         margin-top: 3%;
-        background-color:#EDF7FF;
+        background-color:$color-base;
         border-bottom: #1a2222;
         border-style: solid;
     }
@@ -17,32 +17,29 @@
     #pagina-talleres{
         h2{
             margin: 5%;
-            color: black;
+            color: $color-naranja;
             font-size: 100%;
-            text-decoration: underline;
             text-align: center;
-            font-family: "Nunito Sans", sans-serif !important;
+            font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 800px;
+            font-weight: 500;
             font-style: normal;
             font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;
+             "wdth" 100;
        }
     }
     #pagina-talleres{
         p{
             margin-bottom: 5%;
-            color: black;
+            margin-left: 5%;
+            margin-right: 5%;
+            color:rgb(255, 255, 255, 0.7);
             font-size: 70%;
-            text-align: center;
-            font-family: "Nunito Sans", sans-serif !important;
+            text-align: justify;
+            font-family: "Montserrat", sans-serif;
             font-optical-sizing: auto;
-            font-weight: 800px;
+            font-weight: 400px;
             font-style: italic;
-            font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;
        }
     } 
     #pagina-talleres{
@@ -58,8 +55,9 @@
             .container-fluid{
                 img{
                     width: 20%;
-                    border-style: solid;
-                    border-color: #1a2222;
+                    box-shadow: 10px 10px 5px 0px rgba(15,15,15,0.91);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(15,15,15,0.91);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(15,15,15,0.91);
                     margin-bottom: 5%; 
                     }
                }  
@@ -70,38 +68,34 @@
             h3{
                 text-align: center;
                 margin-bottom: 3%;
+                margin-top: 8%;
                 margin-left: 10%;
                 margin-right: 10%;
-                color: black;
+                color: $color-naranja;
                 font-size: 80% !important;
-                text-decoration: underline;
                 text-align: center;
-                font-family: "Nunito Sans", sans-serif !important;
+                font-family: "Inconsolata", monospace;
                 font-optical-sizing: auto;
-                font-weight: 800px;
+                font-weight: 500;
                 font-style: normal;
                 font-variation-settings:
-                    "wdth" 100,
-                    "YTLC" 500;
+                    "wdth" 100;
            }
         }
     }
     #pagina-talleres{
         div{
             p{
-                margin-bottom: 5%;
+                margin-bottom: 8%;
                 margin-left: 5%;
                 margin-right: 5%;
-                color: black;
+                color:rgb(255, 255, 255, 0.7);
                 font-size: 65% !important;
                 text-align: justify;
-                font-family: "Nunito Sans", sans-serif !important;
+                font-family: "Montserrat", sans-serif;
                 font-optical-sizing: auto;
-                font-weight: 800px;
+                font-weight: 400px;
                 font-style: italic;
-                font-variation-settings:
-                     "wdth" 100,
-                     "YTLC" 500;
            }
         }
     }
@@ -109,25 +103,22 @@
         .recibi-info{
             p{
                 margin-bottom: 5%;
-          margin-left: 5%;
-          margin-right: 5%;
-          color: black;
-          font-size: 65% !important;
-          text-align: justify;
-          font-family: "Nunito Sans", sans-serif !important;
-          font-optical-sizing: auto;
-          font-weight: 800px;
-          font-style: italic;
-          font-variation-settings:
-               "wdth" 100,
-               "YTLC" 500;
+                margin-left: 5%;
+                margin-right: 5%;
+                color: rgb(255, 255, 255, 0.7);;
+                font-size: 65% !important;
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400px;
+                font-style: italic;
            }
         } 
     } 
     #pagina-talleres{
         .recibi-info{
             a{
-                color: #ee5623;
+                color: $color-naranja;
            }
         } 
     } 

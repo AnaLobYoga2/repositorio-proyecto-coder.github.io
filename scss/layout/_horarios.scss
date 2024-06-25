@@ -1,8 +1,13 @@
+$color-base:#1a2222;
+$color-secundario:rgb(188,199,199, 0.5);
+$color-blanco: #bcc7c7;
+$color-contraste: #ee5623;
+$color-naranja: rgb(227, 137, 57);
+
 @media (min-width: 200px) and (max-width: 999px) {
     #pagina-horarios{
          padding: 10px;
-         margin-top: 3%;
-         background-color:#EDF7FF;
+         background-color:#ffff;
          border-bottom: #1a2222;
          border-style: solid;
     }
@@ -11,15 +16,13 @@
             margin-top: 5%;
             font-size: 200%;
             color: black;
-            text-decoration: underline;
             text-align: center;
-            font-family: "Nunito Sans", sans-serif !important;
+            font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 800px;
+            font-weight: 500;
             font-style: normal;
             font-variation-settings:
-                 "wdth" 100,
-                 "YTLC" 500;
+             "wdth" 100;
        }
     } 
     #pagina-horarios{
@@ -34,34 +37,41 @@
     } 
     #pagina-horarios{
         .clearfix{
+            img{
+                box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+            }  
+        }
+    }
+    
+    #pagina-horarios{
+        .clearfix{
             h3{
-                margin-top: 5%;
+                margin-top: 10%;
                 color: black;
-                text-decoration: underline !important;
                 font-size: 100%;
                 text-align: center !important;
-                font-family: "Nunito Sans", sans-serif !important;
+                font-family: "Inconsolata", monospace;
                 font-optical-sizing: auto;
-                font-weight: 800px;
+                font-weight: 500;
                 font-style: normal;
                 font-variation-settings:
-                     "wdth" 100,
-                     "YTLC" 500;
-           }
+                    "wdth" 100;
+            }
         } 
     } 
     #pagina-horarios .clearfix h5{
-         color: black;
+         color: $color-naranja;
          text-decoration: none;
          font-size: 75%;
          text-align: center !important;
-         font-family: "Nunito Sans", sans-serif !important;
+         font-family: "Inconsolata", monospace;
          font-optical-sizing: auto;
-         font-weight: 900px;
+         font-weight: 500;
          font-style: normal;
          font-variation-settings:
-              "wdth" 100,
-              "YTLC" 500;
+             "wdth" 100;
     }
     #pagina-horarios{
         .clearfix{
@@ -69,7 +79,7 @@
                 margin-top: 3%;
                 margin-left: 8% !important;
                 margin-right: 8% !important;
-                color: black;
+                color: rgb(26, 34, 34, 0.6);
                 font-size: 70%;
                 text-align: center;
                 font-family: "Nunito Sans", sans-serif !important;
@@ -89,9 +99,12 @@
                 justify-content: center;
                 font-size: 15px;
                 padding: 5%;
+                box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -webkit-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
+                -moz-box-shadow: 6px 3px 21px 4px rgba(36,35,35,0.56);
                 border-radius: 3%;
-                background-color: #ee5623 !important;
-                border-color: #ee5623 !important;
+                background-color: $color-naranja !important;
+                border-color: $color-naranja !important;
                 color: black;
                 font-size: small;
                 font-family: "Nunito Sans", sans-serif !important;
@@ -108,7 +121,7 @@
         .d-flex{
             .card{
                 width: 20% !important;
-                background-color:#EDF7FF;
+                background-color:#ffff;
                 border-style: none;
                 padding: 15px;
                 display: flex;
@@ -121,16 +134,8 @@
     #pagina-horarios{
         .d-flex{
             .card{
-                img{
-                    width: 300% !important;
-               }
-            } 
-        }
-    } 
-    #pagina-horarios{
-        .d-flex{
-            .card{
                 h5{
+                    color: $color-naranja!important;
                     font-size: 75%;
                }
             } 
@@ -149,10 +154,10 @@
         .d-flex{
             .card{
                 a{
-                    background-color: #ee5623 !important;
-                    border-color: #ee5623 !important;
+                    background-color: $color-naranja !important;
+                    border-color: $color-naranja !important;
                     color: black;
-                    font-size: 65%;
+                    font-size: 50%;
                     font-family: "Nunito Sans", sans-serif !important;
                     font-optical-sizing: auto;
                     font-weight: 700;

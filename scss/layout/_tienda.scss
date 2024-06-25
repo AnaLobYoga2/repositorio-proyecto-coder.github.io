@@ -1,14 +1,15 @@
 @media (min-width: 200px) and (max-width: 999px){
     .pagina-tienda{
          padding: 10px;
-         margin-top: 3%;
-         background-color:#EDF7FF;
+         background-color:#ffff;
          border-bottom: #1a2222;
          border-style: solid;
     }
     .pagina-tienda{
         h2{
-            color: #ee5623;
+            margin-top: 5%;
+            color: $color-naranja;
+            text-shadow: 4px 4px 0px rgba(227,137,57,0.58);
             display: flex;
             justify-content: center;
             padding: 20px;
@@ -40,7 +41,7 @@
     } 
     .pagina-tienda{
         a{
-            color:#ee5623;
+            color:$color-naranja;
             font-size: 80%;
             text-align: justify;
             margin-left: 1%;
