@@ -6,8 +6,11 @@ $color-naranja: rgb(227, 137, 57);
 
 @media (min-width: 999px){
     #inicio{
-         background: rgb(145,133,133);
-         background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);
+         /*background: rgb(145,133,133);
+         background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);*/
+         background-image: url(assets/fondo0.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
          position: relative;
          border: $color-secundario;
          border-style: solid;
@@ -25,6 +28,8 @@ $color-naranja: rgb(227, 137, 57);
             padding-top: 2px;
             padding-bottom: 2px;
             width: 100%;
+            position: absolute;
+        transform: translate(-0%, -180%);
        }  
     } 
     #inicio{

@@ -10,6 +10,7 @@ $color-naranja: rgb(227, 137, 57);
          background-color:#ffff;
          border-bottom: #1a2222;
          border-style: solid;
+         background-image: url(../assets/fondo-horiz3.jpg);
     }
     #pagina-horarios{
         h2{
@@ -128,7 +129,7 @@ $color-naranja: rgb(227, 137, 57);
                 width: 20% !important;
                 margin-left: 3%;
                 margin-right: 3%;
-                background-color: #ffff;
+                background-color: rgb(227, 137, 57, 0.4);
                 border-style: none;
                 padding: 15px;
                 transition: 0.7s;

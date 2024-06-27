@@ -5,6 +5,9 @@
          background-color:$color-base;
          border-bottom: #1a2222;
          border-style: solid;
+         background-image: url(../assets/fondo0.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
     }
     #pagina-talleres{
         .baner{
@@ -18,6 +21,8 @@
         h2{
             margin: 5%;
             color: $color-naranja;
+            padding: 100px;
+            background-color: rgb(0, 0, 0, 0.5);
             font-size: 3rem;
             text-align: center;
             font-family: "Inconsolata", monospace;
@@ -33,12 +38,12 @@
             margin-bottom: 5%;
             margin-left: 5%;
             margin-right: 5%;
-            color:rgb(255, 255, 255, 0.7);
+            color:rgb(0, 0, 0);
             font-size: 20px;
             text-decoration:none;
             font-family: "Montserrat", sans-serif;
             font-optical-sizing: auto;
-            font-weight: 400px;
+            font-weight: 700px;
             font-style: italic;
        }
     } 
@@ -93,7 +98,7 @@
                 margin-bottom: 8%;
                 margin-left: 5%;
                 margin-right: 5%;
-                color:rgb(255, 255, 255, 0.7);
+                color:rgb(0, 0, 0);
                 font-size: 1rem;
                 text-align: justify;
                 font-family: "Montserrat", sans-serif;
@@ -109,7 +114,7 @@
                 margin-bottom: 5%;
                 margin-left: 5%;
                 margin-right: 5%;
-                color: rgb(255, 255, 255, 0.7);;
+                color:rgb(0, 0, 0);
                 font-size: 1rem;
                 text-align: center;
                 font-family: "Nunito Sans", sans-serif !important;

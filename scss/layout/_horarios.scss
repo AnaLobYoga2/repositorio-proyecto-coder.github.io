@@ -10,6 +10,7 @@ $color-naranja: rgb(227, 137, 57);
          background-color:#ffff;
          border-bottom: #1a2222;
          border-style: solid;
+         background-image: url(../assets/fondo-horiz3.jpg);
     }
     #pagina-horarios{
         h2{
@@ -121,8 +122,8 @@ $color-naranja: rgb(227, 137, 57);
         .d-flex{
             .card{
                 width: 20% !important;
-                background-color:#ffff;
                 border-style: none;
+                background: transparent !important;
                 padding: 15px;
                 display: flex;
                 justify-content: center !important;
@@ -135,7 +136,7 @@ $color-naranja: rgb(227, 137, 57);
         .d-flex{
             .card{
                 h5{
-                    color: $color-naranja!important;
+                    color: $color-base!important;
                     font-size: 75%;
                }
             } 
@@ -144,7 +145,7 @@ $color-naranja: rgb(227, 137, 57);
     #pagina-horarios{
         .d-flex{
             .card{
-                p{
+                p{  font-weight: 300px !important;
                     font-size: 70%;
                }
             } 

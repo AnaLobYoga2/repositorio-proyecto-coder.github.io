@@ -6,8 +6,11 @@ $color-naranja: rgb(227, 137, 57);
 
 #inicio{
     position: relative;
-    background: rgb(145,133,133);
-    background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);
+    /*background: rgb(145,133,133);
+    background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);*/
+    background-image: url(assets/fondo0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: $color-secundario;
     border-style: solid;
 }
@@ -37,7 +40,7 @@ $color-naranja: rgb(227, 137, 57);
             font-size: 200%;
             font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
-            font-weight: 300;
+            font-weight: 400;
             font-style: normal;
             font-variation-settings:
                 "wdth" 100;  
@@ -249,6 +252,7 @@ $color-naranja: rgb(227, 137, 57);
 }
 #horarios{
     background-color:#ffff;
+    background-image: url(../assets/fondo-horiz3.jpg);
     border: #ffff;
     border-style: solid;
     padding: 30px;
@@ -258,7 +262,7 @@ $color-naranja: rgb(227, 137, 57);
     h2{
         display: flex;
         justify-content: center;
-        color:$color-naranja;
+        color:$color-base;
         text-align: center;
         font-family: "Inconsolata", monospace;
         font-optical-sizing: auto;
@@ -421,7 +425,10 @@ $color-naranja: rgb(227, 137, 57);
     }
 }
 #tienda{
-    background-color: #ffff;
+    background-image: url(../assets/fondo-horiz1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: #ffff;
     border-style: solid;
     padding: 30px;
@@ -443,6 +450,9 @@ $color-naranja: rgb(227, 137, 57);
 } 
 #tienda{
     p{
+        
+        padding: 100px;
+        background-color: $color-secundario;
         display: flex;
         justify-content: center;
         color:#1a2222;
