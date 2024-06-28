@@ -25,9 +25,9 @@
         .d-flex{
             .card{
                 background-color: rgb(0, 0, 0, 0.7);
-                border-style: none;
-                margin-left: 15%;
+                border-style: none;    
                 margin-bottom: 10px;
+                transform: translate(50px);
            }
         }
     } 
@@ -109,7 +109,7 @@
             }
         }
     }
-    #pagina-eestilos{
+    #pagina-estilos{
         .volver-inicio{
             display: none;
        }

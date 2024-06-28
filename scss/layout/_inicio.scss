@@ -169,16 +169,11 @@ $color-naranja: rgb(227, 137, 57);
 }
 #estilos{
     div{
-       margin-left: 25px;
-    }
-}
-#estilos{
-    div{
         .card{
-            width: 70% !important;
-            margin-left: 15%;
+            width: 80% !important;       
             background-color:#1a2222;
             border: none;
+            transform: translate(50px);
         }
     }
 }     
@@ -372,11 +367,11 @@ $color-naranja: rgb(227, 137, 57);
 } 
 #talleres .card{
     flex-wrap:wrap;
-    margin-left: 18%;
     width: 80% !important;
     background-color:#1a2222;
     border-style: none;
     padding: 15px;  
+    transform: translate(50px);
 }
 #talleres{
     .d-flex{
