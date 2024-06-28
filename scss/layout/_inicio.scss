@@ -6,18 +6,13 @@ $color-naranja: rgb(227, 137, 57);
 
 #inicio{
     position: relative;
-    /*background: rgb(145,133,133);
-    background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);*/
-    background-image: url(assets/fondo0.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border: $color-secundario;
     border-style: solid;
 }
 #inicio{
     .carousel{
         img{
-            opacity: 50% !important;
+            opacity: 80% !important;
             width: 100%;
         }
     }
@@ -50,7 +45,7 @@ $color-naranja: rgb(227, 137, 57);
 #inicio{
     .title{
         h2{
-            color:#bcc7c7;
+            color:$color-base;
             text-align: center;
             font-optical-sizing: auto;
             font-size: 10px;
@@ -181,6 +176,7 @@ $color-naranja: rgb(227, 137, 57);
     div{
         .card{
             width: 70% !important;
+            margin-left: 15%;
             background-color:#1a2222;
             border: none;
         }
@@ -376,6 +372,7 @@ $color-naranja: rgb(227, 137, 57);
 } 
 #talleres .card{
     flex-wrap:wrap;
+    margin-left: 18%;
     width: 80% !important;
     background-color:#1a2222;
     border-style: none;
@@ -451,15 +448,13 @@ $color-naranja: rgb(227, 137, 57);
 #tienda{
     p{
         
-        padding: 100px;
+        padding: 80px;
         background-color: $color-secundario;
         display: flex;
         justify-content: center;
         color:#1a2222;
         font-size: 80%;
         text-align: justify;
-        margin-left: 10%;
-        margin-right: 10%;
         font-family: "Nunito Sans", sans-serif !important;
         font-optical-sizing: auto;
         font-weight: 400px;

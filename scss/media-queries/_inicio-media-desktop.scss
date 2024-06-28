@@ -6,19 +6,13 @@ $color-naranja: rgb(227, 137, 57);
 
 @media (min-width: 999px){
     #inicio{
-         /*background: rgb(145,133,133);
-         background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);*/
-         background-image: url(assets/fondo0.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         position: relative;
          border: $color-secundario;
          border-style: solid;
     }
     #inicio{
         .carousel{
             img{
-                opacity: 50% !important;
+                opacity: 80% !important;
                 width: 100%;
             }
         }
@@ -50,7 +44,7 @@ $color-naranja: rgb(227, 137, 57);
     #inicio{
         .title{
             h2{
-                color:$color-blanco;
+                color:$color-base;
                 text-align: center;
                 font-optical-sizing: auto;
                 font-size: 150%;
@@ -178,6 +172,7 @@ $color-naranja: rgb(227, 137, 57);
     #estilos{
         div{
             .card{
+                margin-left: 0%;
                 width: 20% !important;
                 background-color:#1a2222;
                 transition: 0.7s;
@@ -389,6 +384,7 @@ $color-naranja: rgb(227, 137, 57);
     }
    } 
    #talleres .card{
+        margin-left: 0%;
         width: 20% !important;
         background-color:#1a2222;
         border-style: none;

@@ -6,8 +6,10 @@ html{
     font-size: 16px;
 }
 body{
-    background: rgb(145,133,133);
-    background: radial-gradient(circle, rgba(145,133,133,0.9220063025210083) 1%, rgba(19,20,20,1) 72%);
+    background-image: url(assets/fondo0.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 main{
     /*margin-left: 5%;
