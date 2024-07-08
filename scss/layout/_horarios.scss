@@ -17,6 +17,8 @@ $color-naranja: rgb(227, 137, 57);
             margin-top: 25%;
             font-size: 200%;
             color: black;
+            padding: 50px;
+            background-color: rgb(0, 0, 0, 0.5);
             text-align: center;
             font-family: "Inconsolata", monospace;
             font-optical-sizing: auto;
@@ -63,7 +65,7 @@ $color-naranja: rgb(227, 137, 57);
         } 
     } 
     #pagina-horarios .clearfix h5{
-         color: black;
+         color: $color-base;
          text-decoration: none;
          font-size: 75%;
          text-align: center !important;
@@ -136,7 +138,7 @@ $color-naranja: rgb(227, 137, 57);
         .d-flex{
             .card{
                 h5{
-                    color: $color-base!important;
+                    color: black!important;
                     font-size: 75%;
                }
             } 

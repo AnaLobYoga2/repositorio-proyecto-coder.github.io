@@ -34,15 +34,20 @@ header {
 }
 
 header nav div a img {
-  width: 30%;
+  width: 25%;
 }
 
 header nav div .navbar-toggler-icon img {
   width: 20px;
+  border-style: none !important;
 }
 
 header nav div .navbar-toggler {
   padding: 0px !important;
+  border-style: none !important;
+  position: fixed;
+  top: 10px;
+  right: 15px;
 }
 
 header nav div ul li a {
@@ -114,6 +119,7 @@ header nav .container-fluid button {
 footer {
   background-color: #1a2222;
   padding: auto;
+  position: relative;
 }
 
 footer .nos-vemos {
@@ -186,6 +192,7 @@ footer #form-contacto .container-form textarea {
 }
 
 footer .contacto {
+  position: relative;
   background-color: rgba(188, 199, 199, 0.1);
 }
 
@@ -227,13 +234,16 @@ footer .end h3 {
   color: black;
 }
 
-footer .botones-flotantes {
-  display: block;
+footer .boton-up {
   position: fixed;
+  right: 20px;
+  bottom: 10px;
 }
 
-footer .botones-flotantes a img {
-  width: 100%;
+footer .boton-waap {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
 }
 
 @media (min-width: 999px) {
@@ -344,11 +354,12 @@ footer .botones-flotantes a img {
     font-size: 100%;
     color: black;
   }
-  /*footer{
-      .botones-flotantes{
-          display: none;
-      }
-  }*/
+  footer .boton-up {
+    display: none;
+  }
+  footer .boton-waap {
+    display: none;
+  }
 }
 #inicio {
   position: relative;
@@ -1067,7 +1078,7 @@ footer .botones-flotantes a img {
     flex-direction: column;
     align-items: center !important;
     justify-content: center !important;
-    padding: 20px;
+    padding: 30px;
     margin-top: 5%;
   }
   .pagina-historia .clearfix h2 {
@@ -1259,12 +1270,17 @@ footer .botones-flotantes a img {
     margin-top: 5%;
     font-size: 200%;
     color: rgb(227, 137, 57);
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+  }
+  #pagina-estilos .d-flex {
+    justify-content: center !important;
   }
   #pagina-estilos .d-flex .card {
     background-color: rgba(0, 0, 0, 0.7);
@@ -1424,6 +1440,8 @@ footer .botones-flotantes a img {
     margin-top: 25%;
     font-size: 200%;
     color: black;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
@@ -1456,7 +1474,11 @@ footer .botones-flotantes a img {
     font-variation-settings: "wdth" 100;
   }
   #pagina-horarios .clearfix h5 {
+<<<<<<< HEAD
     color: black;
+=======
+    color: #1a2222;
+>>>>>>> entrega-final
     text-decoration: none;
     font-size: 75%;
     text-align: center !important;
@@ -1509,7 +1531,7 @@ footer .botones-flotantes a img {
     text-align: center;
   }
   #pagina-horarios .d-flex .card h5 {
-    color: #1a2222 !important;
+    color: black !important;
     font-size: 75%;
   }
   #pagina-horarios .d-flex .card p {
@@ -1692,6 +1714,8 @@ footer .botones-flotantes a img {
   #pagina-talleres h2 {
     margin: 5%;
     color: rgb(227, 137, 57);
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 100%;
     text-align: center;
     font-family: "Inconsolata", monospace;
