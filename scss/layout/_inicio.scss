@@ -168,12 +168,16 @@ $color-naranja: rgb(227, 137, 57);
     }
 }
 #estilos{
+    .d-flex{
+        justify-content: center!important;
+    }
+}
+#estilos{
     div{
         .card{
             width: 80% !important;       
             background-color:#1a2222;
             border: none;
-            transform: translate(50px);
         }
     }
 }     
@@ -365,14 +369,20 @@ $color-naranja: rgb(227, 137, 57);
         font-style: italic;
     }
 } 
-#talleres .card{
-    flex-wrap:wrap;
-    width: 80% !important;
-    background-color:#1a2222;
-    border-style: none;
-    padding: 15px;  
-    transform: translate(50px);
+#talleres{
+    .d-flex{
+        justify-content: center!important;
+    }
 }
+#talleres{
+    .card{
+        flex-wrap:wrap;
+        width: 80% !important;
+        background-color:#1a2222;
+        border-style: none;
+        padding: 15px;  
+    }
+} 
 #talleres{
     .d-flex{
         .card{

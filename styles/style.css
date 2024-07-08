@@ -493,11 +493,14 @@ footer .boton-waap {
   font-variation-settings: "wdth" 100;
 }
 
+#estilos .d-flex {
+  justify-content: center !important;
+}
+
 #estilos div .card {
   width: 80% !important;
   background-color: #1a2222;
   border: none;
-  transform: translate(50px);
 }
 
 #estilos div .card img {
@@ -627,13 +630,16 @@ footer .boton-waap {
   font-style: italic;
 }
 
+#talleres .d-flex {
+  justify-content: center !important;
+}
+
 #talleres .card {
   flex-wrap: wrap;
   width: 80% !important;
   background-color: #1a2222;
   border-style: none;
   padding: 15px;
-  transform: translate(50px);
 }
 
 #talleres .d-flex .card h5 {
@@ -1286,7 +1292,6 @@ footer .boton-waap {
     background-color: rgba(0, 0, 0, 0.7);
     border-style: none;
     margin-bottom: 10px;
-    transform: translate(50px);
   }
   #pagina-estilos .d-flex .card .card-body .card-title {
     color: white;
@@ -1474,11 +1479,7 @@ footer .boton-waap {
     font-variation-settings: "wdth" 100;
   }
   #pagina-horarios .clearfix h5 {
-<<<<<<< HEAD
-    color: black;
-=======
     color: #1a2222;
->>>>>>> entrega-final
     text-decoration: none;
     font-size: 75%;
     text-align: center !important;
