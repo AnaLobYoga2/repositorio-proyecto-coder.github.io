@@ -15,7 +15,7 @@ header{
         div{
             a{
                 img{
-                    width: 30%;
+                    width: 25%;
                 }
             }
         }
@@ -27,6 +27,7 @@ header{
            .navbar-toggler-icon{
                 img{
                     width: 20px;
+                    border-style:none!important;
                 }
             }
         }
@@ -37,6 +38,10 @@ header{
         div{
            .navbar-toggler{
                padding: 0px!important;
+               border-style:none!important;
+               position: fixed;
+               top: 10px;
+               right: 15px;
              }
         }
     }

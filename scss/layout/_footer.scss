@@ -8,6 +8,7 @@ $color-naranja: rgb(227, 137, 57);
 footer{
     background-color: #1a2222;
     padding: auto;
+    position: relative;
 }
 footer{
     .nos-vemos{
@@ -110,6 +111,7 @@ footer{
 }
 footer{
     .contacto{
+        position: relative;
         background-color:rgb(188,199,199, 0.1);  
     }
 }
@@ -168,17 +170,16 @@ footer{
     }
 }
 footer{
-    .botones-flotantes{
-        display:block;
+    .boton-up{
         position: fixed;
+        right: 20px;
+        bottom: 10px;
     }
 }
 footer{
-    .botones-flotantes{
-        a{
-            img{
-                width: 100%;
-            }
-        }
+    .boton-waap{
+        position: fixed;
+        right: 20px;
+        bottom: 60px;
     }
 }

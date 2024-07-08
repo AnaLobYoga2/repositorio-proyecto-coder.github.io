@@ -185,10 +185,15 @@ $color-naranja: rgb(227, 137, 57);
             }
         }
     }
-    /*footer{
-        .botones-flotantes{
+    footer{
+        .boton-up{
             display: none;
         }
-    }*/   
+    }
+    footer{
+        .boton-waap{
+           display: none;
+        }
+    }
     
 }
