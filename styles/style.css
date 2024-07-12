@@ -237,13 +237,13 @@ footer .end h3 {
 footer .boton-up {
   position: fixed;
   right: 20px;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 footer .boton-waap {
   position: fixed;
   right: 20px;
-  bottom: 60px;
+  bottom: 80px;
 }
 
 @media (min-width: 999px) {
@@ -1076,15 +1076,13 @@ footer .boton-waap {
   .pagina-historia {
     padding: 10px;
     background-color: white;
-    border-bottom: #1a2222;
-    border-style: solid;
   }
   .pagina-historia .clearfix {
     display: flex;
     flex-direction: column;
     align-items: center !important;
     justify-content: center !important;
-    padding: 30px;
+    padding: 0px !important;
     margin-top: 5%;
   }
   .pagina-historia .clearfix h2 {
@@ -1266,7 +1264,7 @@ footer .boton-waap {
 @media (min-width: 200px) and (max-width: 999px) {
   #pagina-estilos {
     padding: 10px;
-    margin-top: 3%;
+    margin-top: 1%;
     background-color: #1a2222;
     border-bottom: #1a2222;
     border-style: solid;
@@ -1701,7 +1699,7 @@ footer .boton-waap {
 @media (min-width: 200px) and (max-width: 999px) {
   #pagina-talleres {
     padding: 10px;
-    margin-top: 3%;
+    margin-top: 1%;
     background-color: #1a2222;
     border-bottom: #1a2222;
     border-style: solid;
@@ -2030,6 +2028,28 @@ footer .boton-waap {
   background-color: #1a2222 !important;
   color: #ee5623 !important;
   border-color: #ee5623 !important;
+}
+
+.boton2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(227, 137, 57) !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  padding: 1% !important;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+  background-color: #1a2222;
+  border-color: rgb(227, 137, 57);
+}
+.boton2:hover {
+  background-color: rgb(227, 137, 57) !important;
+  color: black !important;
+  border-color: rgb(227, 137, 57) !important;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
