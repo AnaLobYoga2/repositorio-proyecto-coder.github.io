@@ -25,3 +25,26 @@ $color-naranja: rgb(227, 137, 57);
     }
 
 }
+.boton2{
+    display: flex;
+    justify-content: center;
+    color: $color-naranja !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;  
+    padding: 1% !important;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    background-color: $color-base;
+    border-color: $color-naranja;
+    &:hover{
+        background-color: $color-naranja !important;
+        color: black !important;
+        border-color: $color-naranja !important;
+        padding: 10px;
+    }    
+}
