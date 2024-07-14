@@ -1,0 +1,29 @@
+$color-base:#1a2222;
+$color-secundario:rgb(188,199,199, 0.5);
+$color-blanco: #bcc7c7;
+$color-contraste: #ee5623;
+$color-naranja: rgb(227, 137, 57);
+
+@media (min-width: 200px) and (max-width: 999px){
+  #gracias{
+    background-color: #1a2222;
+
+  }
+  #gracias{
+    a{
+        color: beige;
+        font-size: 8px;
+        text-decoration:none;
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400px;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100,
+            "YTLC" 500;      
+    }
+  }
+   
+  
+    
+}
